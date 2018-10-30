@@ -11,4 +11,10 @@ class HomeController extends Controller
  		$data['title'] = 'Coming Soon';
  		return view('home.coming-soon', $data);
  	}
+
+ 	public function demo() 
+ 	{	
+ 		$data['title'] = 'Demo';
+ 		return view('home.demo', $data);
+ 	}
 }

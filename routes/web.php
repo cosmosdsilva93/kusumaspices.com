@@ -16,6 +16,8 @@
 // });
 
 Route::get('/', 'HomeController@comingSoon');
+Route::get('/demo', 'HomeController@demo');
+
 // Route::get('/', 'HomeController@coming_soon')->name('home');
 
 
