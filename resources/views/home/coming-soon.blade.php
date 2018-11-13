@@ -38,7 +38,7 @@
 				Our website is under construction.
 			</p>
 
-			<div id="countdown" class="flex-w flex-sa-m cd100 bor1 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+			<!-- <div id="countdown" class="flex-w flex-sa-m cd100 bor1 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
 				<div class="flex-col-c-m wsize2 m-b-20">
 					<span id="days" class="l1-txt2 p-b-4 days">00</span>
 					<span class="m2-txt2">Days</span>
@@ -64,7 +64,7 @@
 					<span id="seconds" class="l1-txt2 p-b-4 seconds">00</span>
 					<span class="m2-txt2">Seconds</span>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- <form class="flex-w flex-c-m contact100-form validate-form p-t-70">
 				<div class="wrap-input100 validate-input where1" data-validate = "Email is required: ex@abc.xyz">

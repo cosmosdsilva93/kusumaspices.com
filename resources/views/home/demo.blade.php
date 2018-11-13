@@ -114,16 +114,16 @@
                             <div class="navbar-left">
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="#home" class="scroll">Home</a></li>
-                                    <li><a href="#skill_section" class="scroll">About</a></li>
-                                    <li><a href="#work" class="scroll">Our Menu</a></li>
-                                    <li><a href="#team" class="scroll">Chefs</a></li>
+                                    <li><a href="#skill_section" class="scroll">About Us</a></li>
+                                    <li><a href="#work" class="scroll">Our Products</a></li>
                                 </ul>
                             </div>
                             <div class="navbar-right">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#pricing_table" class="scroll">Pricing</a></li>
-                                    <li><a href="#review" class="scroll">Reviews</a></li>
-                                    <li><a href="#blog" class="scroll">Blog</a></li>
+                                    <li><a href="#team" class="scroll">Our Team</a></li>
+                                    <!-- <li><a href="#pricing_table" class="scroll">Pricing</a></li> -->
+                                    <li><a href="#review" class="scroll">Testimonials</a></li>
+                                    <!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
                                     <li><a href="#contact-form" class="scroll">Contact Us</a></li>
                                 </ul>
                             </div>
@@ -140,35 +140,35 @@
 
                                 </li>
                                 <li class="clearfix">
-                                    <a href="#skill_section" class="scroll"> <span>02.</span>About</a>
+                                    <a href="#skill_section" class="scroll"> <span>02.</span>About Us</a>
 
                                 </li>
                                 <li class="clearfix">
-                                    <a href="#work" class="scroll"> <span>03.</span>Our Menu</a>
+                                    <a href="#work" class="scroll"> <span>03.</span>Our Products</a>
 
                                 </li>
                                 <li class="clearfix">
-                                    <a href="#team" class="scroll"> <span>04.</span>Chefs</a>
+                                    <a href="#team" class="scroll"> <span>04.</span>Our Team</a>
 
                                 </li>
-
+<!-- 
                                 <li class="clearfix">
                                     <a href="#pricing_table" class="scroll"> <span>05.</span>Pricing</a>
 
-                                </li>
+                                </li> -->
 
                                 <li class="clearfix">
-                                    <a href="#review" class="scroll"> <span>06.</span>Reviews</a>
+                                    <a href="#review" class="scroll"> <span>05.</span>Testimonials</a>
 
                                 </li>
 
-                                <li class="clearfix">
+                                <!-- <li class="clearfix">
                                     <a href="#blog" class="scroll"> <span>07.</span>Blog</a>
 
-                                </li>
+                                </li> -->
 
                                 <li class="clearfix">
-                                    <a href="#contact-form" class="scroll"> <span>08.</span>Contact Us</a>
+                                    <a href="#contact-form" class="scroll"> <span>06.</span>Contact Us</a>
 
                                 </li>
                             </ul>
@@ -491,9 +491,9 @@
 
                 <h2 class="default_section_heading text-center">
 
-                    <span class="font_200"> About Our</span>
+                    <span class="font_200"> About </span>
 
-                    Hotel
+                    Us
 
                 </h2>
 
@@ -513,7 +513,7 @@
 
                                 <p class="default_text text-center open_sans default_text_light">
 
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sit amet, consectetur adipisicing.
+                                    Add a mother's touch to your food.
 
                                 </p>
 
@@ -527,11 +527,11 @@
 
                                 <i class="fa fa-calendar pink_color"></i>
 
-                                <h3 class="small_heading_navy text-center raleway h3_pink font_600"> Our Values</h3>
+                                <h3 class="small_heading_navy text-center raleway h3_pink font_600"> Where Are We</h3>
 
                                 <p class="default_text text-center open_sans default_text_light">
 
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sit amet, consectetur adipisicing.
+                                    All our spices are prepared in Nasik, India which are then supplied all over the world.
 
                                 </p>
 
@@ -561,11 +561,11 @@
 
                                 <i class="fa fa-archive pink_color"></i>
 
-                                <h3 class="small_heading_navy text-center raleway h3_pink font_600"> Our Locations</h3>
+                                <h3 class="small_heading_navy text-center raleway h3_pink font_600"> What We Do</h3>
 
                                 <p class="default_text text-center open_sans default_text_light">
 
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sit amet, consectetur adipisicing.
+                                    As a third generation of a legacy since 1975, we offer you genuine, single handedly produced and premium quality Indian spices (Masala).
 
                                 </p>
 
@@ -618,11 +618,11 @@
 
                         <h2 class="default_section_heading text-center">
 
-                            Popular
+                            Our
 
                             <span class="font_200">
 
-                                Dishes
+                                Products
 
                             </span>
 
@@ -880,7 +880,7 @@
 
         <!-- Portfolio Section -->
 
-        <section class="portfolio_section big_padding" style="padding-bottom: 0;">
+        <!-- <section class="portfolio_section big_padding" style="padding-bottom: 0;">
 
             <div class="container">
 
@@ -1280,7 +1280,7 @@
 
             </div>
 
-        </section>
+        </section> -->
 
         <!-- /Portfolio Section -->
 
@@ -1300,13 +1300,7 @@
 
                             </span>
 
-                        Kitchen
-
-                        <span class="font_200">
-
-                                Staff
-
-                            </span>
+                                Team
 
                     </h2>
 
@@ -1326,9 +1320,9 @@
 
                                     </div>
 
-                                    <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400">Chris Martin</h3>
+                                    <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400">Kusum Deshpande</h3>
 
-                                    <p class="default_text text-center open_sans">Head Cook - Restaurant</p>
+                                    <p class="default_text text-center open_sans">Founder</p>
 
                                     <ul class="team_members_list">
 
@@ -1378,9 +1372,9 @@
 
                                     </div>
 
-                                    <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400">Ellyse Perry</h3>
+                                    <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400">Surekha Bendre</h3>
 
-                                    <p class="default_text text-center open_sans">Food Supervisor</p>
+                                    <p class="default_text text-center open_sans">COO</p>
 
                                     <ul class="team_members_list">
 
@@ -1430,9 +1424,9 @@
 
                                     </div>
 
-                                    <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400">Danny M</h3>
+                                    <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400">Pari Lalsare</h3>
 
-                                    <p class="default_text text-center open_sans">Food Supervisor</p>
+                                    <p class="default_text text-center open_sans">CMO</p>
 
                                     <ul class="team_members_list">
 
@@ -1472,7 +1466,7 @@
 
                             </div>
 
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
 
                                 <div class="team_detail wow slideInRight">
 
@@ -1522,7 +1516,7 @@
 
                                 </div>
 
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -1536,7 +1530,7 @@
 
         <!-- Half Section -->
 
-        <section class="half_section_main half_section_right bg_grey">
+       <!--  <section class="half_section_main half_section_right bg_grey">
 
             <div class="half_section_picture hidden-sm hidden-xs"></div>
 
@@ -1656,13 +1650,13 @@
 
             </div>
 
-        </section>
+        </section> -->
 
         <!-- half Section Ended -->
 
         <!-- Pricing Table -->
 
-        <section class="pricing_section big_padding bg_grey" id="pricing_table">
+        <!-- <section class="pricing_section big_padding bg_grey" id="pricing_table">
 
             <div class="container">
 
@@ -1848,7 +1842,7 @@
 
             </div>
 
-        </section>
+        </section> -->
 
         <!-- /Pricing Table -->
 
@@ -1952,9 +1946,9 @@
 
         <!-- Blog Section -->
 
-        <section class="blog_section big_padding" id="blog">
+        <!-- <section class="blog_section big_padding" id="blog"> -->
 
-            <div class="container">
+            <!-- <div class="container">
 
                 <p class="default_text raleway text-center default_small_heading blue_color font_200">Read the News</p>
 
@@ -2073,15 +2067,15 @@
 
                 </div>
 
-            </div>
+            <!-- </div> -->
 
-        </section>
+        <!-- </section> -->
 
         <!-- /Blog Section -->
 
         <!-- Google Map Section -->
 
-        <section id="map"></section>
+        <!-- <section id="map"></section> -->
 
         <!-- /Google Map Section -->
 
