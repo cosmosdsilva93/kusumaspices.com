@@ -105,8 +105,8 @@
 
 
                     <div class="container">
-                        <div class="navbar-header">
-                            <a class="navbar-brand orange_logo" href="#"><img src="images/logo-orange-dark.png" alt="logo"></a>
+                        <div class="navbar-header" style="top:-40%;">
+                            <a class="navbar-brand" href="#"><img src="images/site-images/logo.png" alt="logo" style="width:102px;"></a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-ex1-collapse  ">
@@ -131,56 +131,48 @@
                         </div>
                         <!-- /.navbar-collapse -->
                     </div>
+
                     <div class="sidebar_menu">
                         <nav class="pushmenu pushmenu-right">
-                            <a class="push-logo" href="#"><img src="images/logo-orange-dark.png" alt="logo"></a>
+                            <a class="push-logo" href="#"><img src="images/site-images/logo.png" alt="logo"></a>
                             <ul class="push_nav centered">
                                 <li class="clearfix">
                                     <a href="#home" class="scroll"><span>01.</span>Home</a>
-
                                 </li>
                                 <li class="clearfix">
                                     <a href="#skill_section" class="scroll"> <span>02.</span>About Us</a>
-
                                 </li>
                                 <li class="clearfix">
                                     <a href="#work" class="scroll"> <span>03.</span>Our Products</a>
-
                                 </li>
                                 <li class="clearfix">
                                     <a href="#team" class="scroll"> <span>04.</span>Our Team</a>
-
                                 </li>
-<!-- 
+                                <!-- 
                                 <li class="clearfix">
                                     <a href="#pricing_table" class="scroll"> <span>05.</span>Pricing</a>
 
                                 </li> -->
-
                                 <li class="clearfix">
                                     <a href="#review" class="scroll"> <span>05.</span>Testimonials</a>
 
                                 </li>
-
                                 <!-- <li class="clearfix">
                                     <a href="#blog" class="scroll"> <span>07.</span>Blog</a>
-
                                 </li> -->
-
                                 <li class="clearfix">
                                     <a href="#contact-form" class="scroll"> <span>06.</span>Contact Us</a>
-
                                 </li>
                             </ul>
                             <div class="clearfix"></div>
-                            <ul class="social_icon black top25 bottom20 list-inline">
+                            <!-- <ul class="social_icon black top25 bottom20 list-inline">
 
                                 <li><a href="#" class="navy_blue facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
                                 <li><a href="#" class="navy_blue twitter"><i class="fa fa-fw fa-twitter"></i></a></li>
                                 <li><a href="#" class="navy_blue pinterest"><i class="fa fa-fw fa fa-pinterest"></i></a></li>
                                 <li><a href="#" class="navy_blue linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
-                            </ul>
+                            </ul> -->
                         </nav>
                     </div>
                 </div>
@@ -198,11 +190,11 @@
                         <ul>	<!-- slide -->
                             <li data-index="rs-layers" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <!-- main image -->
-                                <img src="" data-bgcolor="rgb(247, 247, 247)" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <img src="images/site-images/home.jpg" data-bgcolor="rgb(247, 247, 247)" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <!-- layers -->
 
                                 <!-- layer nr. 1 -->
-                                <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
+                                <!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
                                      id="layers-one"
                                      data-x="['left','left','left','left']" data-hoffset="['-264','-264','-240','-264']"
                                      data-y="['top','top','top','top']" data-voffset="['30','30','50','80']"
@@ -220,9 +212,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 5;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-1.png" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 2 -->
-                                <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
+<!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
                                      id="layers-two"
                                      data-x="['right','right','right','right']" data-hoffset="['-35','-5','-70','-144']"
                                      data-y="['top','top','top','top']" data-voffset="['20','-40','-80','-80']"
@@ -240,9 +232,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 6;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-2.png" alt="" data-ww="['550px','550px','550px','550px']" data-hh="['471px','471px','471px','471px']" width="550" height="471" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 3 -->
-                                <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
+<!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
                                      id="layers-three"
                                      data-x="['left','left','left','left']" data-hoffset="['-392','-392','-540','-638']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-484','-484','-520','-522']"
@@ -260,9 +252,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 7;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-6.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="['1000px','1000px','1000px','1000px']" width="900" height="1000" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 4 -->
-                                <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
+<!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
                                      id="layers-four"
                                      data-x="['left','left','left','left']" data-hoffset="['134','134','-2','-57']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['67','67','50','6']"
@@ -280,9 +272,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 8;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-3.png" alt="" data-ww="['200px','200px','200px','200px']" data-hh="['300px','300px','300px','300px']" width="200" height="300" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 5 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+<!--                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
                                      id="layers-five"
                                      data-x="['left','left','left','left']" data-hoffset="['181','181','30','-39']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-170','-190','-212']"
@@ -300,9 +292,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 9;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-5.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['400px','400px','400px','400px']" width="300" height="400" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 8 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+<!--                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
                                      id="layers-six"
                                      data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-453']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']"
@@ -322,9 +314,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 12;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-4.png" alt="" data-ww="['730px','730px','730px','600']" data-hh="['520px','520px','520px','456']" width="730" height="520" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 9 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
+<!--                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
                                      id="layers-sev"
                                      data-x="['right','right','right','right']" data-hoffset="['222','222','105','8']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['8','8','-17','-10']"
@@ -344,9 +336,9 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 13;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-7.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['500px','500px','500px','500px']" width="300" height="500" data-no-retina> </div>
-
+ -->
                                 <!-- layer nr. 10 -->
-                                <div class="tp-caption tp-resizeme"
+<!--                                 <div class="tp-caption tp-resizeme"
                                      id="layers-eight"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-90']"
@@ -365,9 +357,9 @@
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class=" navy_blue raleway default_section_heading">Fresh Food</h1></div>
-
+ -->
                                 <!-- layer nr. 11 -->
-                                <div class="tp-caption tp-resizeme"
+<!--                                 <div class="tp-caption tp-resizeme"
                                      id="layers-nine"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-90']"
@@ -386,9 +378,9 @@
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Delicious Taste</h1></div>
-
+ -->
                                 <!-- layer nr. 12 -->
-                                <div class="tp-caption tp-resizeme"
+<!--                                 <div class="tp-caption tp-resizeme"
                                      id="layers-ten"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-90']"
@@ -407,9 +399,9 @@
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Premium Steaks</h1></div>
-
+ -->
                                 <!-- layer nr. 13 -->
-                                <div class="tp-caption tp-resizeme"
+<!--                                 <div class="tp-caption tp-resizeme"
                                      id="layers-elev"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','-10']"
@@ -428,7 +420,7 @@
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><p class="open_sans default_small_heading navy_blue">Lorem Ipsum is simply dummy text of the printing</p></div>
-
+ -->
                                 <!-- layer nr. 14 -->
                                 <div class="tp-caption rev-btn"
                                      id="layers-twel"
@@ -440,11 +432,11 @@
                                      data-responsive="off"
                                      data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                      style="z-index: 999;padding-top: 25px;">
-                                    <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Check Our Food </a>
+                                    <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Check Us Out</a>
                                 </div>
 
                                 <!-- layer nr. 15 -->
-                                <div class="tp-caption rev-scroll-btn revs-dark"
+                                <!-- <div class="tp-caption rev-scroll-btn revs-dark"
                                      id="layers-thir"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','70','50']"
@@ -466,7 +458,7 @@
 
                                      style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
                                     <span></span>
-                                </div>
+                                </div> -->
  </li>
                         </ul>
                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
@@ -483,7 +475,7 @@
 
         <!-- Half Section -->
 
-        <section class="food-company-section big_padding" id="skill_section">
+        <section class="food-company-section big_padding" id="skill_section" style="background-color: #F2F2F2;">
 
             <div class="container container_big">
 
@@ -543,7 +535,7 @@
 
                 </div>
 
-                <div class="col-md-6 margin_after_tab">
+                <div class="col-md-6 margin_after_tab" id="about-us-img">
 
                     <div class="food_about_bg" >
 
@@ -579,11 +571,11 @@
 
                                 <i class="fa fa-phone pink_color"></i>
 
-                                <h3 class="small_heading_navy text-center raleway h3_pink font_600"> 24/7 Help Support</h3>
+                                <h3 class="small_heading_navy text-center raleway h3_pink font_600"> Contact Us</h3>
 
                                 <p class="default_text text-center open_sans default_text_light">
 
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sit amet, consectetur adipisicing.
+                                    Feel free to get in touch with us at <a href="mailto:kusumaspices@gmail.com">kusumaspices@gmail.com</a>
 
                                 </p>
 
@@ -808,55 +800,55 @@
 
         <!-- Stats Section -->
 
-        <section class=" big_padding "  data-parallax="scroll" data-image-src="images/food-resturant-assets/images/food_stats_section.jpg">
+        <section class=" big_padding "  data-parallax="scroll" data-image-src="images/site-images/stats.jpg">
 
             <div class="container">
 
                 <div class="row">
 
-                    <div class="col-md-3 col-sm-6 margin_after_tab text-center">
+                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+
+                        <div class="stats_section_inner">
+
+                            <i class="fa fa-lightbulb-o white_color stats_section_icon text-center" aria-hidden="true"></i>
+
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 43 </h3>
+
+                            <p class="small_heading_navy white_color open_sans font_200">Years Of Experience</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+
+                        <div class="stats_section_inner">
+
+                            <i class="fa fa-group white_color stats_section_icon text-center" aria-hidden="true"></i>
+
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 500 </h3>
+
+                            <p class="small_heading_navy white_color open_sans font_200">Happy Households Served</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
 
                         <div class="stats_section_inner">
 
                             <i class="fa fa-smile-o white_color stats_section_icon text-center" aria-hidden="true"></i>
 
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 4680 </h3>
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 100% </h3>
 
-                            <p class="small_heading_navy white_color open_sans font_200">Happy Customer</p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 margin_after_tab text-center">
-
-                        <div class="stats_section_inner">
-
-                            <i class="fa fa-cutlery white_color stats_section_icon text-center" aria-hidden="true"></i>
-
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 865 </h3>
-
-                            <p class="small_heading_navy white_color open_sans font_200">Dishes Served</p>
+                            <p class="small_heading_navy white_color open_sans font_200">Satisfied Customers</p>
 
                         </div>
 
                     </div>
 
-                    <div class="col-md-3 col-sm-6 margin_after_tab text-center">
-
-                        <div class="stats_section_inner">
-
-                            <i class="fa fa-glass white_color stats_section_icon text-center" aria-hidden="true"></i>
-
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 510 </h3>
-
-                            <p class="small_heading_navy white_color open_sans font_200">Total Beverages</p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 margin_after_tab text-center">
+                    <!-- <div class="col-md-3 col-sm-6 margin_after_tab text-center">
 
                         <div class="stats_section_inner">
 
@@ -868,7 +860,7 @@
 
                         </div>
 
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -1316,7 +1308,7 @@
 
                                     <div class="team_detail_inner">
 
-                                        <img src="images/food-resturant-assets/images/chef-1.jpg" alt="team_img">
+                                        <img src="images/site-images/kusumtai.jpg" alt="team_img">
 
                                     </div>
 
@@ -1324,7 +1316,7 @@
 
                                     <p class="default_text text-center open_sans">Founder</p>
 
-                                    <ul class="team_members_list">
+                                    <!-- <ul class="team_members_list">
 
                                         <li>
 
@@ -1356,7 +1348,7 @@
 
                                         </li>
 
-                                    </ul>
+                                    </ul> -->
 
                                 </div>
 
@@ -1368,7 +1360,7 @@
 
                                     <div class="team_detail_inner">
 
-                                        <img src="images/food-resturant-assets/images/chef-4.jpg" alt="team_img">
+                                        <img src="images/site-images/spb.jpg" alt="team_img">
 
                                     </div>
 
@@ -1376,7 +1368,7 @@
 
                                     <p class="default_text text-center open_sans">COO</p>
 
-                                    <ul class="team_members_list">
+                                    <!-- <ul class="team_members_list">
 
                                         <li>
 
@@ -1408,7 +1400,7 @@
 
                                         </li>
 
-                                    </ul>
+                                    </ul> -->
 
                                 </div>
 
@@ -1428,7 +1420,7 @@
 
                                     <p class="default_text text-center open_sans">CMO</p>
 
-                                    <ul class="team_members_list">
+                                    <!-- <ul class="team_members_list">
 
                                         <li>
 
@@ -1460,7 +1452,7 @@
 
                                         </li>
 
-                                    </ul>
+                                    </ul> -->
 
                                 </div>
 
@@ -1856,7 +1848,7 @@
 
                     <img src="images/cutomer_quote.png" alt="cutomer_quote" class="quote_pic">
 
-                    <h2 class="default_section_heading text-center white_color">
+                    <h2 class="default_section_heading text-center black_color">
 
                             <span class="font_200">
 
@@ -1882,43 +1874,40 @@
 
                             <div class="swiper-slide">
 
-                                <p class="customer_feedback_text white_color open_sans default_text font_200">
+                                <p class="customer_feedback_text black_color open_sans default_text font_600">
 
 
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique, tempor sagittis dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sit amet ligula consequat urna posuere
-                                    convallis.
+                                    I shifted to the US 2 years ago, away from my family, but Kusuma Spices keep me in touch with the taste of my mothers tasty food
 
                                 </p>
 
-                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600">John Doe - Regular Customer</p>
+                                <p class="customer_feedback_name black_color open_sans default_small_heading font_600">- Kumar Iyer</p>
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <p class="customer_feedback_text white_color open_sans default_text font_200">
+                                <p class="customer_feedback_text black_color open_sans default_text font_600">
 
 
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique, tempor sagittis dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sit amet ligula consequat urna posuere
-                                    convallis.
+                                    I have been using Kusuma Spices since the past 30 years and all 4 generations of our family love the food we make from these spices. 
+
 
                                 </p>
 
-                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600">John Doe - Regular Customer</p>
+                                <p class="customer_feedback_name black_color open_sans default_small_heading font_600">- Vasudhara Kulkarni</p>
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <p class="customer_feedback_text white_color open_sans default_text font_200">
+                                <p class="customer_feedback_text black_color open_sans default_text font_600">
+                                    This is the taste of my home. Nothing else  in  the market is even close to the natural flavour the red mirchi powder gives.
 
-
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique, tempor sagittis dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sit amet ligula consequat urna posuere
-                                    convallis.
 
                                 </p>
 
-                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600">John Doe - Regular Customer</p>
+                                <p class="customer_feedback_name black_color open_sans default_small_heading font_600"> - Meghna Joshi</p>
 
                             </div>
 
@@ -2099,11 +2088,11 @@
 
                                 <hr class="default_divider default_divider_blue " style="margin-left: 0;">
 
-                                <p class="default_text_light default_text open_sans">
+                               <!--  <p class="default_text_light default_text open_sans">
 
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique, tempor sagittis dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sit amet ligula consequat urna posuere convallis.
 
-                                </p>
+                                </p> -->
 
                                 <div class="row">
 
@@ -2119,13 +2108,13 @@
 
                                             <p class="default_text form_text open_sans default_text_light">
 
-                                                58 alley, Mertle St, Rd 12, Apt 2C
+                                                Plot No. 19, Aparimit Bungalow, Shahu Nagar, Nr. ITI Bridge, 
 
                                             </p>
 
                                             <p class="default_text form_text open_sans default_text_light">
 
-                                                Seattle, Washington
+                                                CIDCO, Nashik - 422008
 
                                             </p>
 
@@ -2145,13 +2134,13 @@
 
                                             <p class="default_text form_text open_sans default_text_light">
 
-                                                +92 1440 59 58
+                                                Dr. Paree Lalsare (Sopan Baug, Pune) - +91 9921 407 040
 
                                             </p>
 
                                             <p class="default_text form_text open_sans default_text_light">
 
-                                                +92 1440 59 58
+                                                Dr. Sheetal Nanal (Appa Balwant Chowk, Pune) - +91 9822 303 4
 
                                             </p>
 
@@ -2169,17 +2158,17 @@
 
                                         <div class="col-md-11 col-sm-12">
 
-                                            <a href="#." class="anchor_style_default">
+                                            <a href="mailto:kusumaspices@gmail.com" class="anchor_style_default">
 
                                                 <p class="default_text form_text open_sans default_text_light">
 
-                                                    email@website.com
+                                                    kusumaspices@gmail.com
 
                                                 </p>
 
                                             </a>
 
-                                            <a href="#." class="anchor_style_default">
+                                            <!-- <a href="#." class="anchor_style_default">
 
                                                 <p class="default_text form_text open_sans default_text_light">
 
@@ -2187,7 +2176,7 @@
 
                                                 </p>
 
-                                            </a>
+                                            </a> -->
 
                                         </div>
 
@@ -2262,7 +2251,7 @@
 
                 <div class="footer_detail">
 
-                    <ul class="footer_links text-center">
+                    <!-- <ul class="footer_links text-center">
 
                         <li>
 
@@ -2314,9 +2303,9 @@
 
                         </li>
 
-                    </ul>
+                    </ul> -->
 
-                    <p class="text-center default_text open_sans white_color">&copy; 2018 Themes Industry,  All rights reserved. </p>
+                    <p class="text-center default_text open_sans white_color">&copy; 2018 Pixxel IT Services,  All rights reserved. </p>
 
                 </div>
 

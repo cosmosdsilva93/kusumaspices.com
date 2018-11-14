@@ -8,9 +8,9 @@
     background: url("../images/half_section_right_food.jpg") !important;
 }
 
-.food_variation .customer_feedback_section{
-    background: url("../images/food_review_section.jpg") !important;
-}
+/*.food_variation .customer_feedback_section{
+    background: url("../../site-images/testimonials.jpg") !important;
+}*/
 
 /* Popular Dishes Section */
 
@@ -58,7 +58,7 @@
     padding-top: 75%;
     background-position: center !important;
     background-size: cover !important;
-    background: url("../images/food-bg.jpg");
+    background: url("../../site-images/about-us.jpg");
 
 }
 

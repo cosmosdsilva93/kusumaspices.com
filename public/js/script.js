@@ -9,54 +9,57 @@ $(window).on('load', function () {
 $(window).on('scroll', function () {
     if ($(window).scrollTop() > 70) { // Set position from top to add class
         $('.navbar').addClass("shrink");
+        // console.log('if');
+        $('.navbar .navbar-header').attr('style', 'top:-27%');
+        
+        // $('.navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
+        // $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
+        // $('.navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
+        // $('.navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
+        // $('.navbar .navbar-brand.orange_logo_rtl> img').attr('src', 'images/logo-arabic-dark.png');
+        // $('.navbar .navbar-brand.yellow_logo_crypto> img').attr('src', 'images/logo_dark_crypto.png');
+        // $('.navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
 
-        $('.navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
-        $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
-        $('.navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
-        $('.navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
-        $('.navbar .navbar-brand.orange_logo_rtl> img').attr('src', 'images/logo-arabic-dark.png');
-        $('.navbar .navbar-brand.yellow_logo_crypto> img').attr('src', 'images/logo_dark_crypto.png');
-        $('.navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
+        // $('.index-light .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
+        // $('.index-light .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
+        // $('.index-light .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
+        // $('.index-light .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
+        // $('.index-light .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
 
-        $('.index-light .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
-        $('.index-light .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
-        $('.index-light .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
-        $('.index-light .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
-        $('.index-light .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
-
-        $('.active-navbar .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
-        $('.active-navbar .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
-        $('.active-navbar .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
-        $('.active-navbar .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
-        $('.active-navbar .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
+        // $('.active-navbar .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
 
         $('.index-only-side-nav .navbar  .navbar-brand').addClass("display_none");
         $('.index-only-side-nav .navbar').removeClass("shrink");
 
     }
     else {
+        // console.log('else');
         $('.navbar').removeClass("shrink");
 
-        $('.navbar .navbar-brand> img').attr('src', 'images/logo.png');
-        $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green.png');
-        $('.navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink.png');
-        $('.navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange.png');
-        $('.navbar .navbar-brand.orange_logo_rtl> img').attr('src', 'images/logo-arabic-light.png');
-        $('.navbar .navbar-brand.yellow_logo_crypto> img').attr('src', 'images/logo_crypto.png');
-        $('.navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow.png');
+        // $('.navbar .navbar-brand> img').attr('src', 'images/logo.png');
+        // $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green.png');
+        // $('.navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink.png');
+        // $('.navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange.png');
+        // $('.navbar .navbar-brand.orange_logo_rtl> img').attr('src', 'images/logo-arabic-light.png');
+        // $('.navbar .navbar-brand.yellow_logo_crypto> img').attr('src', 'images/logo_crypto.png');
+        // $('.navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow.png');
 
 
-        $('.index-light .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
-        $('.index-light .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
-        $('.index-light .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
-        $('.index-light .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
-        $('.index-light .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
+        // $('.index-light .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
+        // $('.index-light .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
+        // $('.index-light .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
+        // $('.index-light .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
+        // $('.index-light .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
 
-        $('.active-navbar .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
-        $('.active-navbar .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
-        $('.active-navbar .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
-        $('.active-navbar .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
-        $('.active-navbar .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
+        // $('.active-navbar .navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.pink_logo> img').attr('src', 'images/logo-pink-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
+        // $('.active-navbar .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
 
         $('.active-navbar .navbar').addClass("shrink");
 
