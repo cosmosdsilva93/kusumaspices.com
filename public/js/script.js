@@ -6,11 +6,42 @@ $(window).on('load', function () {
     // Animate loader off screen
     $(".loader").fadeOut("slow");
 });
+
+$('#contact-us-form').on('submit', function(e){
+    e.preventDefault();
+    var data = $(this).serializeArray();
+    $.ajax({
+        url: '/kusumaspices.com/contact-us',
+        data: data,
+        dataType: 'json',
+        // type: 'POST',
+        // headers: {
+        //     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        // },
+        beforeSend: function(){
+            $('#contact-us-loader').show();
+        },
+        success: function(res){
+            // return false;
+            $('#contact-us-loader').hide();
+            var alert = $('#contact-us-alert');
+            var alertType = (res.success) ? 'alert-success' : 'alert-danger';
+            alert.attr('class', '').addClass('alert ' + alertType + ' alert-msgs');
+            alert.children().eq(0).text(res.msg);
+            $('#contact-us-alert').fadeIn();
+            setInterval(function(){
+                $('#contact-us-form .form_inputs').val('');
+                $('#contact-us-alert').fadeOut();
+            }, 1500)
+        }
+    });
+});  
+
 $(window).on('scroll', function () {
     if ($(window).scrollTop() > 70) { // Set position from top to add class
         $('.navbar').addClass("shrink");
         // console.log('if');
-        $('.navbar .navbar-header').attr('style', 'top:-27%');
+        $('.navbar .navbar-header').attr('style', 'top:-27%;');
         
         // $('.navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
         // $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
@@ -39,6 +70,8 @@ $(window).on('scroll', function () {
     else {
         // console.log('else');
         $('.navbar').removeClass("shrink");
+        $('.navbar').show();
+
 
         // $('.navbar .navbar-brand> img').attr('src', 'images/logo.png');
         // $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green.png');
@@ -157,48 +190,48 @@ $("#submit_btn").click(function() {
     //get input field values
     //alert("hello");
      $('#submit_handle').click();
-    var user_name = $('input[name=name]').val();
-    var user_email = $('input[name=email]').val();
-    //var user_subject      = $('input[name=subject]').val();
-    var user_message = $('textarea[name=message]').val();
+    // var user_name = $('input[name=name]').val();
+    // var user_email = $('input[name=email]').val();
+    // //var user_subject      = $('input[name=subject]').val();
+    // var user_message = $('textarea[name=message]').val();
 
-    //simple validation at client's end
-    var post_data, output;
-    var proceed = true;
-    if (user_name == "") {
-        proceed = false;
-    }
-    if (user_email == "") {
-        proceed = false;
-    }
+    // //simple validation at client's end
+    // var post_data, output;
+    // var proceed = true;
+    // if (user_name == "") {
+    //     proceed = false;
+    // }
+    // if (user_email == "") {
+    //     proceed = false;
+    // }
 
-    if (user_message == "") {
-        proceed = false;
-    }
+    // if (user_message == "") {
+    //     proceed = false;
+    // }
 
-    //everything looks good! proceed...
-    if (proceed) {
-        //data to be sent to server
-        post_data = { 'userName': user_name, 'userEmail': user_email, 'userMessage': user_message };
+    // //everything looks good! proceed...
+    // if (proceed) {
+    //     //data to be sent to server
+    //     post_data = { 'userName': user_name, 'userEmail': user_email, 'userMessage': user_message };
 
-        //Ajax post data to server
-        $.post('contact.php', post_data, function(response) {
+    //     //Ajax post data to server
+    //     $.post('contact.php', post_data, function(response) {
 
-            //load json data from server and output message
-            if (response.type == 'error') {
-                output = '<div class="alert-danger" style="padding:10px; margin-bottom:25px;">' + response.text + '</div>';
-            } else {
-                output = '<div class="alert-success" style="padding:10px; margin-bottom:25px;">' + response.text + '</div>';
+    //         //load json data from server and output message
+    //         if (response.type == 'error') {
+    //             output = '<div class="alert-danger" style="padding:10px; margin-bottom:25px;">' + response.text + '</div>';
+    //         } else {
+    //             output = '<div class="alert-success" style="padding:10px; margin-bottom:25px;">' + response.text + '</div>';
 
-                //reset values in all input fields
-                $('.form_class input').val('');
-                $('.form_class textarea').val('');
-            }
+    //             //reset values in all input fields
+    //             $('.form_class input').val('');
+    //             $('.form_class textarea').val('');
+    //         }
 
-            $("#result").hide().html(output).slideDown();
-        }, 'json');
+    //         $("#result").hide().html(output).slideDown();
+    //     }, 'json');
 
-    }
+    // }
 });
 
 //reset previously set border colors and hide all message on .keyup()

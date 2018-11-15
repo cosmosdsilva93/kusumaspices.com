@@ -93,7 +93,7 @@
 
             <!-- Navbar Section -->
 
-            <nav class="navbar navbar-fixed-top green">
+            <nav class="navbar navbar-fixed-top green" style="display: none;">
                 <div class="container-fluid">
                     <!--second nav button -->
                     <div id="menu_bars" class="right menu_bars">
@@ -400,6 +400,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Premium Steaks</h1></div>
  -->
+                                    
                                 <!-- layer nr. 13 -->
 <!--                                 <div class="tp-caption tp-resizeme"
                                      id="layers-elev"
@@ -421,11 +422,24 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><p class="open_sans default_small_heading navy_blue">Lorem Ipsum is simply dummy text of the printing</p></div>
  -->
+
+                                <!-- <div class="tp-caption rev-btn"
+                                     id="layers-twel"
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']"
+
+                                     data-actions=''
+                                     data-responsive_offset="on"
+                                     data-responsive="off"
+                                     data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                                     style="z-index: 999;padding-top: 25px;">
+                                    <a class="navbar-brand" href="#"><img src="images/site-images/logo.png" alt="logo" style="width:102px;"></a>
+                                </div> -->
                                 <!-- layer nr. 14 -->
                                 <div class="tp-caption rev-btn"
                                      id="layers-twel"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','10']"
 
                                      data-actions=''
                                      data-responsive_offset="on"
@@ -800,7 +814,7 @@
 
         <!-- Stats Section -->
 
-        <section class=" big_padding "  data-parallax="scroll" data-image-src="images/site-images/stats.jpg">
+        <section class=" big_padding "  data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
 
             <div class="container">
 
@@ -1848,7 +1862,7 @@
 
                     <img src="images/cutomer_quote.png" alt="cutomer_quote" class="quote_pic">
 
-                    <h2 class="default_section_heading text-center black_color">
+                    <h2 class="default_section_heading text-center white_color">
 
                             <span class="font_200">
 
@@ -1874,20 +1888,20 @@
 
                             <div class="swiper-slide">
 
-                                <p class="customer_feedback_text black_color open_sans default_text font_600">
+                                <p class="customer_feedback_text white_color open_sans default_text font_200">
 
 
                                     I shifted to the US 2 years ago, away from my family, but Kusuma Spices keep me in touch with the taste of my mothers tasty food
 
                                 </p>
 
-                                <p class="customer_feedback_name black_color open_sans default_small_heading font_600">- Kumar Iyer</p>
+                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600">- Kumar Iyer</p>
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <p class="customer_feedback_text black_color open_sans default_text font_600">
+                                <p class="customer_feedback_text white_color open_sans default_text font_200">
 
 
                                     I have been using Kusuma Spices since the past 30 years and all 4 generations of our family love the food we make from these spices. 
@@ -1895,19 +1909,19 @@
 
                                 </p>
 
-                                <p class="customer_feedback_name black_color open_sans default_small_heading font_600">- Vasudhara Kulkarni</p>
+                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600">- Vasudhara Kulkarni</p>
 
                             </div>
 
                             <div class="swiper-slide">
 
-                                <p class="customer_feedback_text black_color open_sans default_text font_600">
+                                <p class="customer_feedback_text white_color open_sans default_text font_200">
                                     This is the taste of my home. Nothing else  in  the market is even close to the natural flavour the red mirchi powder gives.
 
 
                                 </p>
 
-                                <p class="customer_feedback_name black_color open_sans default_small_heading font_600"> - Meghna Joshi</p>
+                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600"> - Meghna Joshi</p>
 
                             </div>
 
@@ -2189,23 +2203,28 @@
                         </div>
 
                         <div class="col-md-6 wow slideInRight">
-
-                        <form onsubmit="return false" class="form_class">
-
+                        
+                        <form id="contact-us-form" class="form_class">
+                            
                          <div class="row">
 
                                 <div class="mew_form clearfix">
-                                   <div class="col-sm-12" id="result"></div>
+
+                                   <div class="col-sm-12">
+                                       <div class="alert alert-msgs" id="contact-us-alert" align="center" style="display: none;">
+                                           <span id="contact-us-alert-msg"></span>
+                                       </div>
+                                   </div>
 
                                     <div class="col-sm-6">
 
-                                        <input placeholder="Your Name" class="form_inputs" id="name" name="name" required="required">
+                                        <input type="text" placeholder="Your Name" class="form_inputs" id="name" name="name" required="required">
 
                                     </div>
 
                                     <div class="col-sm-6">
 
-                                        <input placeholder="Email" class="form_inputs" id="email" name="email" required="required">
+                                        <input type="email" placeholder="Email" class="form_inputs" id="email" name="email" required="required">
 
                                     </div>
 

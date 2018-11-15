@@ -1910,7 +1910,10 @@ ul.packages li i{
 /* Customer Feedback Slider */
 
 .customer_feedback_section{
-    background: url("../images/site-images/testimonials.jpg");
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ), url("../images/site-images/testimonials.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -3781,8 +3784,8 @@ ul.packages li i{
     }
 }
 
-.black_color{
+/*.black_color{
     color:#000000 !important;
-}
+}*/
 
 
