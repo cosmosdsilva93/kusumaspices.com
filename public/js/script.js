@@ -11,7 +11,7 @@ $('#contact-us-form').on('submit', function(e){
     e.preventDefault();
     var data = $(this).serializeArray();
     $.ajax({
-        url: '/kusumaspices.com/contact-us',
+        url: '/contact-us',
         data: data,
         dataType: 'json',
         // type: 'POST',
