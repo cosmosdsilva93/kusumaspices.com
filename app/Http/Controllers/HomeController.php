@@ -20,7 +20,7 @@ class HomeController extends Controller
  	public function demo() 
  	{	
  		$data['title'] = 'Demo';
- 		return view('home.demo', $data);
+ 		return view('home.index', $data);
  	}
 
  	public function contactUs()
@@ -29,19 +29,17 @@ class HomeController extends Controller
  	        $postedData = $this->request->all();
  	        $request['name'] = trim(strip_tags($postedData['name']));
  	        $request['email'] = trim(strip_tags($postedData['email']));
- 	        $request['message'] = trim(strip_tags($postedData['message']));
- 	        // $response = $this->home->saveMessage($request);
- 	        $data = array();
- 	        $recepients['name'] = 'Kusumas Spices';
- 	        $recepients['email'] = 'kusumaspices@gmail.com';
+ 	        $request['query'] = trim(strip_tags($postedData['message']));
+ 	        
  	        $response['success'] = 1;
  	        $response['msg'] = 'We have received your query. We will get back to you shortly.';
  	        
- 	        // \Mail::send('test', $data, function($message) use ($recepients) {
- 	        //     $message->to($recepients['email'], $recepients['name'])
- 	        //             ->subject('[kusumaspices.com] - Query by ' . $request['name']);
- 	        //     $message->from($request['email'], $request['name']);
- 	        // });
+ 	        \Mail::send('email.contact-us', $request, function($message) use ($request) {
+ 	            $message->to('cosmosdsilva93@gmail.com', 'Kusumas Spices')
+ 	                    ->subject('[kusumaspices.com] - Query by ' . $request['name']);
+ 	            $message->from($request['email'], $request['name']);
+ 	        });
+ 	        
  	        echo json_encode($response);
  	    }
  	}

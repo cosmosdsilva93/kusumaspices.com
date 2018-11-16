@@ -194,25 +194,38 @@
                                 <!-- layers -->
 
                                 <!-- layer nr. 1 -->
-                                <!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
+                                <div class="tp-caption"
                                      id="layers-one"
-                                     data-x="['left','left','left','left']" data-hoffset="['-264','-264','-240','-264']"
-                                     data-y="['top','top','top','top']" data-voffset="['30','30','50','80']"
+                                     data-x="['center','center','center','center']" data-hoffset="['-15','-15','-15','-15']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-60']"
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
                                      data-type="image"
-                                     data-basealign="slide"
+                                     data-basealign=""
                                      data-responsive_offset="on"
                                      data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
+                                     data-textAlign="['center','center','center','center']"
                                      data-paddingtop="[0,0,0,0]"
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 5;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-1.png" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
- -->
+                                     style="z-index: 5;border-width:0px;"><img src="images/site-images/logo.png" alt="" data-ww="['400px','400px','400px','400px']" data-hh="['250px','250px','250px','250px']" width="400" height="250" data-no-retina> </div>
+
+                                <!-- id="layers-twel"
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','10']"
+
+                                     data-actions=''
+                                     data-responsive_offset="on"
+                                     data-responsive="off"
+                                     data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                                     style="z-index: 999;padding-top: 25px;">
+                                    <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Check Us Out</a>
+         -->
+
+
                                 <!-- layer nr. 2 -->
 <!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
                                      id="layers-two"
@@ -445,7 +458,7 @@
                                      data-responsive_offset="on"
                                      data-responsive="off"
                                      data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     style="z-index: 999;padding-top: 25px;">
+                                     style="z-index: 999; padding-top:200px;padding-left: 20px;">
                                     <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Check Us Out</a>
                                 </div>
 
@@ -493,7 +506,7 @@
 
             <div class="container container_big">
 
-                <p class="default_small_heading raleway text-center blue_color font_200">Check It</p>
+                <!-- <p class="default_small_heading raleway text-center blue_color font_200">Check It</p> -->
 
                 <h2 class="default_section_heading text-center">
 
@@ -620,7 +633,7 @@
 
                     <div class="skill_section_inner">
 
-                        <p class="default_text raleway text-center default_small_heading blue_color font_200">What we do</p>
+                        <!-- <p class="default_text raleway text-center default_small_heading blue_color font_200">What we do</p> -->
 
                         <h2 class="default_section_heading text-center">
 
@@ -662,13 +675,77 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/food-resturant-assets/images/menu-dish-1.jpg">
+                                                <img src="images/site-images/products/Kusuma_Ajwain_F.png" height="400px">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Panzenella  <span class="font_600 text-right">$21.00</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Ajwain  <!-- <span class="font_600 text-right">$21.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+                                    <div class="xtra-slides" style="display:none;">
+                                        <a class="anchor_style_default" href="#.">
+
+                                            <div class="menu-detail-outer">
+
+                                                <div class="menu-img">
+
+                                                    <img src="images/food-resturant-assets/images/menu-dish-1.jpg">
+
+                                                </div>
+
+                                                <div class="menu-detail bg_white">
+
+                                                    <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Panzenella  <span class="font_600 text-right">$21.00</span></h2>
+
+                                                </div>
+
+                                            </div>
+
+                                        </a>
+
+                                        <a class="anchor_style_default" href="#.">
+
+                                            <div class="menu-detail-outer">
+
+                                                <div class="menu-img">
+
+                                                    <img src="images/food-resturant-assets/images/menu-dish-1.jpg">
+
+                                                </div>
+
+                                                <div class="menu-detail bg_white">
+
+                                                    <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Panzenella  <span class="font_600 text-right">$21.00</span></h2>
+
+                                                </div>
+
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Chakali Bhajani_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chakali Bhajani<!-- <span class="font_600 text-right">$7.00</span> --></h2>
 
                                             </div>
 
@@ -686,13 +763,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/food-resturant-assets/images/menu-dish-2.jpg">
+                                                <img src="images/site-images/products/Kusuma_Chivada_F.png" height="400px">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Bruschetta  <span class="font_600 text-right">$7.00</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chivada <!-- <span class="font_600 text-right">$39.00</span> --></h2>
 
                                             </div>
 
@@ -710,13 +787,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/food-resturant-assets/images/menu-dish-3.jpg">
+                                                <img src="images/site-images/products/Kusuma_Daangar_F.png" height="400px">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Focaccia Bread <span class="font_600 text-right">$39.00</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Daangar <!-- <span class="font_600 text-right">$6.00</span> --></h2>
 
                                             </div>
 
@@ -734,13 +811,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/food-resturant-assets/images/menu-dish-4.jpg">
+                                                <img src="images/site-images/products/Kusuma_Dhania_F.png" height="400px">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Doopler <span class="font_600 text-right">$6.00</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania <!-- <span class="font_600 text-right">$17.00</span> --></h2>
 
                                             </div>
 
@@ -758,13 +835,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/food-resturant-assets/images/menu-dish-5.jpg">
+                                                <img src="images/site-images/products/Kusuma_Dried Chincha_F.png" height="400px">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Falcao Quadra <span class="font_600 text-right">$17.00</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dried Chincha <!-- <span class="font_600 text-right">$3.00</span> --></h2>
 
                                             </div>
 
@@ -782,13 +859,374 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/food-resturant-assets/images/menu-dish-6.jpg">
+                                                <img src="images/site-images/products/Kusuma_Garam Masala_F.png" height="400px">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mushroom Risotto <span class="font_600 text-right">$3.00</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Garam Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Gawthi Teel_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Goda Masala_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Goda Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Hing_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Jeera Powder_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Jeera_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Kanda Masala_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kanda Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Kashmiri Mirchi_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Khobora_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Khobara <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Metkut_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Metkut <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_MIrchi_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Mohori_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Savaji Masala_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Savaji Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Thalipeeth_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Thalipeeth Bhajani <!-- span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_Turmeric_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+
+                                            </div>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="swiper-slide">
+
+                                    <a class="anchor_style_default" href="#.">
+
+                                        <div class="menu-detail-outer">
+
+                                            <div class="menu-img">
+
+                                                <img src="images/site-images/products/Kusuma_UPasachi Bhajani_F.png" height="400px">
+
+                                            </div>
+
+                                            <div class="menu-detail bg_white">
+
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Upasachi Bhajani <!-- <span class="font_600 text-right">$3.00</span> --></h2>
 
                                             </div>
 
@@ -800,9 +1238,19 @@
 
                             </div>
 
+                            <!-- Add Pagination -->
+
+                            <!-- <div class="swiper-pagination"></div> -->
+
+                            <!-- Add Arrows -->
+
+                            <div class="swiper-button-next fa fa-angle-right hidden-sm hidden-xs"></div>
+
+                            <div class="swiper-button-prev fa fa-angle-left hidden-sm hidden-xs"></div>
+                            
                         </div>
 
-                        <div class="swiper-pagination"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
 
                     </div>
 
@@ -814,7 +1262,7 @@
 
         <!-- Stats Section -->
 
-        <section class=" big_padding "  data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
+        <section class="big_padding stats-section"  data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
 
             <div class="container">
 
@@ -948,7 +1396,7 @@
 
                     <div class="cbp-item breakfast">
 
-                        <a href="images/food-resturant-assets/images/menu-1.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                        <a href="images/site-images/products/menu-1.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
 
                             <div class="cbp-caption-defaultWrap">
 
@@ -1294,7 +1742,7 @@
 
             <div class="container">
 
-                <p class="raleway default_small_heading blue_color font_200">Let's Meet</p>
+                <!-- <p class="raleway default_small_heading blue_color font_200">Let's Meet</p> -->
 
                 <div class="col-xs-12">
 
@@ -2096,7 +2544,7 @@
 
                             <div class="contact_form_detail  center_on_mobile">
 
-                                <p class="default_small_heading raleway blue_color font_200">Locate Us</p>
+                                <!-- <p class="default_small_heading raleway blue_color font_200">Locate Us</p> -->
 
                                 <h3 class="default_section_heading raleway navy_blue"> <span class="font_200">Order</span> Now</h3>
 
@@ -2148,13 +2596,13 @@
 
                                             <p class="default_text form_text open_sans default_text_light">
 
-                                                Dr. Paree Lalsare (Sopan Baug, Pune) - +91 9921 407 040
+                                                Dr. Paree Lalsare (Sopan Baug, Pune) <br/>+91 9921 407 040
 
                                             </p>
 
                                             <p class="default_text form_text open_sans default_text_light">
 
-                                                Dr. Sheetal Nanal (Appa Balwant Chowk, Pune) - +91 9822 303 4
+                                                Dr. Sheetal Nanal (Appa Balwant Chowk, Pune) <br/> +91 9822 303 450
 
                                             </p>
 
@@ -2238,8 +2686,11 @@
 
                                         <div class="button_div  center_on_mobile">
                                             <input id="submit_handle" type="submit" style="display: none" />
-                                            <a href="javascript:" id="submit_btn" class="bg_pink button button_default_style open_sans bg_before_navy"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Message</a>
-
+                                            <a href="javascript:" id="submit_btn" class="bg_pink button button_default_style open_sans bg_before_navy"> 
+                                                <i class="fa fa-envelope" aria-hidden="true"></i> Send Message
+                                                &nbsp;&nbsp;&nbsp;
+                                                <span id="contact-us-loader" style="display:none;"><i class="fa fa-spinner fa-spin" aria-hidden="true"></i></span>
+                                            </a>
                                         </div>
 
                                     </div>

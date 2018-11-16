@@ -442,7 +442,7 @@ body {
 @media screen and (max-width: 767px) {
     .navbar .navbar-header .navbar-brand {
         width: 120px;
-        padding: 16px 0 !important;
+        padding: 5px 0 !important;
     }
 }
 
@@ -1962,10 +1962,33 @@ ul.packages li i{
     transition: 400ms;
 }
 
+.food_menu_section .swiper-button-next{
+    background-image: none;
+    color: #000000;
+    font-size: 80px;
+    top: 45%;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    line-height: 50px;
+    transition: 400ms;
+    right:-1%;
+}
+
+.food_menu_section .swiper-button-next:hover{
+    color: #000000;
+    font-size: 80px;
+    top: 45%;
+    right: -1%;
+    /*background-color: #f15927;*/
+}
+
+
 .customer_feedback_section .swiper-button-next:hover{
     color: #ffffff;
     font-size: 35px;
     top: 10%;
+
 }
 
 .customer_feedback_section .swiper-button-prev{
@@ -1980,11 +2003,32 @@ ul.packages li i{
     line-height: 50px;
 }
 
+.food_menu_section .swiper-button-prev{
+    background-image: none;
+    color: #000000;
+    font-size: 80px;
+    top: 45%;
+    transition: 1s;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    line-height: 50px;
+    left: 1%;
+}
+
 .customer_feedback_section .swiper-button-prev:hover{
     color: #ffffff;
     font-size: 35px;
     top: 10%;
 
+}
+
+.food_menu_section .swiper-button-prev:hover{
+    color: #000000;
+    font-size: 80px;
+    top: 45%;
+    left: 1%;
+    /*background-color: #f15927;*/
 }
 
 
@@ -3781,6 +3825,19 @@ ul.packages li i{
 @media(max-width:767px){
     #about-us-img {
         display: none;
+    }
+
+    .stats-section{
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url("../images/site-images/stats.jpg") !important;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .navbar-brand{
+        padding: 0 !important;
     }
 }
 

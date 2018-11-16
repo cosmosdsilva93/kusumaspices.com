@@ -29,7 +29,7 @@ $('#contact-us-form').on('submit', function(e){
             alert.attr('class', '').addClass('alert ' + alertType + ' alert-msgs');
             alert.children().eq(0).text(res.msg);
             $('#contact-us-alert').fadeIn();
-            setInterval(function(){
+            setTimeout(function(){
                 $('#contact-us-form .form_inputs').val('');
                 $('#contact-us-alert').fadeOut();
             }, 1500)
@@ -38,10 +38,13 @@ $('#contact-us-form').on('submit', function(e){
 });  
 
 $(window).on('scroll', function () {
-    if ($(window).scrollTop() > 70) { // Set position from top to add class
+    // console.log($(window).scrollTop());
+    if ($(window).scrollTop() > 600) { // Set position from top to add class
         $('.navbar').addClass("shrink");
-        // console.log('if');
         $('.navbar .navbar-header').attr('style', 'top:-27%;');
+        $('.navbar').show();
+        
+        // console.log('if');
         
         // $('.navbar .navbar-brand> img').attr('src', 'images/logo-dark.png');
         // $('.navbar .navbar-brand.green_logo> img').attr('src', 'images/logo-green-dark.png');
@@ -63,14 +66,12 @@ $(window).on('scroll', function () {
         // $('.active-navbar .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
         // $('.active-navbar .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
 
-        $('.index-only-side-nav .navbar  .navbar-brand').addClass("display_none");
-        $('.index-only-side-nav .navbar').removeClass("shrink");
+        // $('.index-only-side-nav .navbar  .navbar-brand').addClass("display_none");
+        // $('.index-only-side-nav .navbar').removeClass("shrink");
 
-    }
-    else {
-        // console.log('else');
+    } else {
+        $('.navbar').hide();
         $('.navbar').removeClass("shrink");
-        $('.navbar').show();
 
 
         // $('.navbar .navbar-brand> img').attr('src', 'images/logo.png');
@@ -94,10 +95,10 @@ $(window).on('scroll', function () {
         // $('.active-navbar .navbar .navbar-brand.orange_logo> img').attr('src', 'images/logo-orange-dark.png');
         // $('.active-navbar .navbar .navbar-brand.yellow_logo> img').attr('src', 'images/logo-yellow-dark.png');
 
-        $('.active-navbar .navbar').addClass("shrink");
+        // $('.active-navbar .navbar').addClass("shrink");
 
-        $('.index-only-side-nav .navbar  .navbar-brand').removeClass("display_none");
-        $('.index-only-side-nav .navbar').removeClass("shrink");
+        // $('.index-only-side-nav .navbar  .navbar-brand').removeClass("display_none");
+        // $('.index-only-side-nav .navbar').removeClass("shrink");
     }
 });
 
