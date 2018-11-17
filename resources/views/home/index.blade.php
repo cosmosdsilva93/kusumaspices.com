@@ -10,13 +10,13 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="og:title" content="Kusuma Spices">
+    <meta property="og:title" content="Kusuma Spices" />
 
-    <meta name="og:description" content="As a third generation of a legacy since 1975, we offer you genuine, single handedly produced and premium quality Indian spices (Masala).">
+    <meta property="og:description" content="As a third generation of a legacy since 1975, we offer you genuine, single handedly produced and premium quality Indian spices (Masala)." />
     
-    <meta name="og:image" content="http://kusumaspices.com/images/site-images/meta-logo.png">
+    <meta property="og:image" content="http://kusumaspices.com/images/site-images/meta-logo.png" />
     
-    <meta name="og:url" content="http://kusumaspices.com">
+    <meta property="og:url" content="http://kusumaspices.com" />
     <!-- <meta name="twitter:card" content="summary_large_image"> -->
 
 
