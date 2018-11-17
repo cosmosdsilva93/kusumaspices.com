@@ -10,7 +10,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
+    <meta name="description" content="As a third generation of a legacy since 1975, we offer you genuine, single handedly produced and premium quality Indian spices (Masala).">
 
     <meta name="author" content="">
 
@@ -675,7 +675,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Ajwain_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Ajwain_F.jpg" height="400px">
 
                                             </div>
 
@@ -739,7 +739,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Chakali Bhajani_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Chakali Bhajani_F.jpg" height="400px">
 
                                             </div>
 
@@ -763,7 +763,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Chivada_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Chivada_F.jpg" height="400px">
 
                                             </div>
 
@@ -787,7 +787,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Daangar_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Daangar_F.jpg" height="400px">
 
                                             </div>
 
@@ -811,7 +811,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Dhania_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Dhania_F.jpg" height="400px">
 
                                             </div>
 
@@ -835,7 +835,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Dried Chincha_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Dried Chincha_F.jpg" height="400px">
 
                                             </div>
 
@@ -859,7 +859,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Garam Masala_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Garam Masala_F.jpg" height="400px">
 
                                             </div>
 
@@ -883,7 +883,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Gawthi Teel_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Gawthi Teel_F.jpg" height="400px">
 
                                             </div>
 
@@ -907,7 +907,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Goda Masala_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Goda Masala_F.jpg" height="400px">
 
                                             </div>
 
@@ -931,7 +931,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Hing_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Hing_F.jpg" height="400px">
 
                                             </div>
 
@@ -955,7 +955,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Jeera Powder_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Jeera Powder_F.jpg" height="400px">
 
                                             </div>
 
@@ -979,7 +979,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Jeera_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Jeera_F.jpg" height="400px">
 
                                             </div>
 
@@ -1003,7 +1003,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Kanda Masala_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Kanda Masala_F.jpg" height="400px">
 
                                             </div>
 
@@ -1027,7 +1027,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Kashmiri Mirchi_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Kashmiri Mirchi_F.jpg" height="400px">
 
                                             </div>
 
@@ -1052,7 +1052,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Khobora_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Khobora_F.jpg" height="400px">
 
                                             </div>
 
@@ -1076,7 +1076,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Metkut_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Metkut_F.jpg" height="400px">
 
                                             </div>
 
@@ -1100,7 +1100,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_MIrchi_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_MIrchi_F.jpg" height="400px">
 
                                             </div>
 
@@ -1124,7 +1124,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Mohori_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Mohori_F.jpg" height="400px">
 
                                             </div>
 
@@ -1148,7 +1148,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Savaji Masala_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Savaji Masala_F.jpg" height="400px">
 
                                             </div>
 
@@ -1172,7 +1172,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Thalipeeth_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Thalipeeth_F.jpg" height="400px">
 
                                             </div>
 
@@ -1196,7 +1196,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Turmeric_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_Turmeric_F.jpg" height="400px">
 
                                             </div>
 
@@ -1220,7 +1220,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_UPasachi Bhajani_F.png" height="400px">
+                                                <img src="images/site-images/products/Kusuma_UPasachi Bhajani_F.jpg" height="400px">
 
                                             </div>
 
