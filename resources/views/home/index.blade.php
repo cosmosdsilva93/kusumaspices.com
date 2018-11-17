@@ -10,15 +10,21 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="As a third generation of a legacy since 1975, we offer you genuine, single handedly produced and premium quality Indian spices (Masala).">
+    <meta property="og:title" content="Kusuma Spices">
 
-    <meta name="author" content="">
+    <meta property="og:description" content="As a third generation of a legacy since 1975, we offer you genuine, single handedly produced and premium quality Indian spices (Masala).">
+    
+    <meta property="og:image" content="http://kusumaspices.com/images/site-images/meta-logo.png">
+    
+    <meta property="og:url" content="http://kusumaspices.com">
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+
 
     <!-- Insert Favicon Here -->
     <link href="images/favicon.png" rel="icon">
 
     <!-- Page Title(Name)-->
-    <title>Kusuma Spices: Home</title>
+    <title>Kusuma Spices</title>
 
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
@@ -688,47 +694,6 @@
                                         </div>
 
                                     </a>
-                                    <div class="xtra-slides" style="display:none;">
-                                        <a class="anchor_style_default" href="#.">
-
-                                            <div class="menu-detail-outer">
-
-                                                <div class="menu-img">
-
-                                                    <img src="images/food-resturant-assets/images/menu-dish-1.jpg">
-
-                                                </div>
-
-                                                <div class="menu-detail bg_white">
-
-                                                    <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Panzenella  <span class="font_600 text-right">$21.00</span></h2>
-
-                                                </div>
-
-                                            </div>
-
-                                        </a>
-
-                                        <a class="anchor_style_default" href="#.">
-
-                                            <div class="menu-detail-outer">
-
-                                                <div class="menu-img">
-
-                                                    <img src="images/food-resturant-assets/images/menu-dish-1.jpg">
-
-                                                </div>
-
-                                                <div class="menu-detail bg_white">
-
-                                                    <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Panzenella  <span class="font_600 text-right">$21.00</span></h2>
-
-                                                </div>
-
-                                            </div>
-
-                                        </a>
-                                    </div>
                                 </div>
 
                                 <div class="swiper-slide">
@@ -745,7 +710,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chakali Bhajani<!-- <span class="font_600 text-right">$7.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chakali Bhajani<span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
@@ -769,7 +734,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chivada <!-- <span class="font_600 text-right">$39.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chivada <span class="font_600 text-right">&#8377; 30</span></h2>
 
                                             </div>
 
@@ -793,7 +758,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Daangar <!-- <span class="font_600 text-right">$6.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Daangar <span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
@@ -817,7 +782,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania <!-- <span class="font_600 text-right">$17.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania Powder<span class="font_600 text-right">&#8377; 40</span></h2>
 
                                             </div>
 
@@ -865,7 +830,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Garam Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Garam Masala <span class="font_600 text-right">&#8377; 100</span></h2>
 
                                             </div>
 
@@ -889,7 +854,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <span class="font_600 text-right">&#8377; 30</span></h2>
 
                                             </div>
 
@@ -913,7 +878,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Goda Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Goda Masala <span class="font_600 text-right">&#8377; 70</span></h2>
 
                                             </div>
 
@@ -937,7 +902,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <span class="font_600 text-right">&#8377; 120</span></h2>
 
                                             </div>
 
@@ -961,7 +926,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
@@ -985,7 +950,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <span class="font_600 text-right">&#8377; 35</span></h2>
 
                                             </div>
 
@@ -1009,7 +974,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kanda Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kanda Masala <span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
@@ -1033,7 +998,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <span class="font_600 text-right">&#8377; 60</span></h2>
 
                                             </div>
 
@@ -1082,7 +1047,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Metkut <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Metkut <span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
@@ -1106,7 +1071,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <span class="font_600 text-right">&#8377; 40</span></h2>
 
                                             </div>
 
@@ -1130,7 +1095,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <span class="font_600 text-right">&#8377; 15</span></h2>
 
                                             </div>
 
@@ -1154,7 +1119,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Savaji Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Savji Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
 
                                             </div>
 
@@ -1178,7 +1143,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Thalipeeth Bhajani <!-- span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Thalipeeth Bhajani <span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
@@ -1202,7 +1167,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <span class="font_600 text-right">&#8377; 40</span></h2>
 
                                             </div>
 
@@ -1226,7 +1191,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Upasachi Bhajani <!-- <span class="font_600 text-right">$3.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Upasachi Bhajani <span class="font_600 text-right">&#8377; 50</span></h2>
 
                                             </div>
 
