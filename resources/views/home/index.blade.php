@@ -126,7 +126,7 @@
                             </div>
                             <div class="navbar-right">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#team" class="scroll">Our Team</a></li>
+                                    <!-- <li><a href="#team" class="scroll">Our Team</a></li> -->
                                     <!-- <li><a href="#pricing_table" class="scroll">Pricing</a></li> -->
                                     <li><a href="#review" class="scroll">Testimonials</a></li>
                                     <!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
@@ -203,7 +203,7 @@
                                 <div class="tp-caption"
                                      id="layers-one"
                                      data-x="['center','center','center','center']" data-hoffset="['-15','-15','-15','-15']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-60']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-90','-90','-90','-90']"
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
@@ -399,10 +399,10 @@
                                      data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Delicious Taste</h1></div>
  -->
                                 <!-- layer nr. 12 -->
-<!--                                 <div class="tp-caption tp-resizeme"
+                                <!-- <div class="tp-caption"
                                      id="layers-ten"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-90']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-20','-20','-20','-90']"
                                      data-fontsize="['70','70','70','50']"
                                      data-lineheight="['80','80','80','60']"
                                      data-width="['none','none','none','400']"
@@ -412,19 +412,19 @@
                                      data-type="text"
                                      data-responsive_offset="on"
 
-                                     data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":5390,"ease":"Power4.easeOut"},{"delay":"wait","speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]'
+                                     data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":5390,"ease":"nothing"},{"delay":"wait","speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"nothing"}]'
                                      data-textAlign="['center','center','center','center']"
                                      data-paddingtop="[0,0,0,0]"
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Premium Steaks</h1></div>
- -->
+                                     data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Add a mother's touch to your food</h1></div> -->
+
                                     
                                 <!-- layer nr. 13 -->
-<!--                                 <div class="tp-caption tp-resizeme"
+                                <div class="tp-caption tp-resizeme"
                                      id="layers-elev"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','-10']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['80','80','80','-80']"
                                      data-fontsize="['18','16','16','16']"
                                      data-lineheight="['20','20','20','30']"
                                      data-width="['none','none','none','360']"
@@ -436,11 +436,8 @@
 
                                      data-frames='[{"from":"y:50px;rX:45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                      data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]" style="z-index: 19;"><p class="open_sans default_small_heading navy_blue">Lorem Ipsum is simply dummy text of the printing</p></div>
- -->
+                                    style="z-index:19;background-color: #ffffff;border-radius:5px;"><h1 style="padding:5px !important; color:#373435 !important;" class="navy_blue raleway default_section_heading">Add a mother's touch to your food</h1></div>
+
 
                                 <!-- <div class="tp-caption rev-btn"
                                      id="layers-twel"
@@ -458,7 +455,7 @@
                                 <div class="tp-caption rev-btn"
                                      id="layers-twel"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','10']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
 
                                      data-actions=''
                                      data-responsive_offset="on"
@@ -506,6 +503,78 @@
 
         <!-- /Header Section -->
 
+        <!-- Stats Section -->
+
+        <section class="big_padding stats-section"  data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+
+                        <div class="stats_section_inner">
+
+                            <i class="fa fa-lightbulb-o white_color stats_section_icon text-center" aria-hidden="true"></i>
+
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 43 </h3>
+
+                            <p class="small_heading_navy white_color open_sans font_200">Years Of Experience</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+
+                        <div class="stats_section_inner">
+
+                            <i class="fa fa-group white_color stats_section_icon text-center" aria-hidden="true"></i>
+
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 500 </h3>
+
+                            <p class="small_heading_navy white_color open_sans font_200">Happy Households Served</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+
+                        <div class="stats_section_inner">
+
+                            <i class="fa fa-smile-o white_color stats_section_icon text-center" aria-hidden="true"></i>
+
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 100% </h3>
+
+                            <p class="small_heading_navy white_color open_sans font_200">Satisfied Customers</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="col-md-3 col-sm-6 margin_after_tab text-center">
+
+                        <div class="stats_section_inner">
+
+                            <i class="fa fa-coffee white_color stats_section_icon text-center" aria-hidden="true"></i>
+
+                            <h3 class="default_section_heading white_color raleway number-scroll"> 1350 </h3>
+
+                            <p class="small_heading_navy white_color open_sans font_200">Cups of Coffee</p>
+
+                        </div>
+
+                    </div> -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- /Stats Section -->
+
         <!-- Half Section -->
 
         <section class="food-company-section big_padding" id="skill_section" style="background-color: #F2F2F2;">
@@ -523,8 +592,26 @@
                 </h2>
 
                 <hr class="default_divider default_divider_blue default_divider_big">
-
-                <div class="col-md-3">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kusuma - An unusual combination of purity, taste and tradition passed down over two generations and carried forward by the third.
+                </p>
+                <br>
+                <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother “Kusum.”
+                </p>
+                <br>
+                <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We bring to you Kusuma Spices/masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste. Apart from adding unique flavour & taste, consumption of these spices provide infinite health benefits.  
+                </p>
+                <br>
+                <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our spices will remind you of the simplistic times and delicious home-cooked food by our grandmothers
+                </p>
+                </div>
+                <div col-md-1></div>
+                <!-- <div class="col-md-3">
 
                     <div class="row">
 
@@ -618,7 +705,7 @@
 
                     </div>
 
-                </div>
+                </div> -->
 
             </div>
 
@@ -675,7 +762,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -698,7 +785,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -722,7 +809,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -746,7 +833,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -770,7 +857,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -794,7 +881,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -818,7 +905,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -842,7 +929,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -866,7 +953,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -890,7 +977,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -914,7 +1001,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -938,7 +1025,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -962,7 +1049,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -986,7 +1073,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1011,7 +1098,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1035,7 +1122,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1059,7 +1146,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1083,7 +1170,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1107,7 +1194,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1131,7 +1218,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1155,7 +1242,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1179,7 +1266,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="#.">
+                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1225,484 +1312,9 @@
 
         </section>
 
-        <!-- Stats Section -->
-
-        <section class="big_padding stats-section"  data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
-
-                        <div class="stats_section_inner">
-
-                            <i class="fa fa-lightbulb-o white_color stats_section_icon text-center" aria-hidden="true"></i>
-
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 43 </h3>
-
-                            <p class="small_heading_navy white_color open_sans font_200">Years Of Experience</p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
-
-                        <div class="stats_section_inner">
-
-                            <i class="fa fa-group white_color stats_section_icon text-center" aria-hidden="true"></i>
-
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 500 </h3>
-
-                            <p class="small_heading_navy white_color open_sans font_200">Happy Households Served</p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
-
-                        <div class="stats_section_inner">
-
-                            <i class="fa fa-smile-o white_color stats_section_icon text-center" aria-hidden="true"></i>
-
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 100% </h3>
-
-                            <p class="small_heading_navy white_color open_sans font_200">Satisfied Customers</p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- <div class="col-md-3 col-sm-6 margin_after_tab text-center">
-
-                        <div class="stats_section_inner">
-
-                            <i class="fa fa-coffee white_color stats_section_icon text-center" aria-hidden="true"></i>
-
-                            <h3 class="default_section_heading white_color raleway number-scroll"> 1350 </h3>
-
-                            <p class="small_heading_navy white_color open_sans font_200">Cups of Coffee</p>
-
-                        </div>
-
-                    </div> -->
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- /Stats Section -->
-
-        <!-- Portfolio Section -->
-
-        <!-- <section class="portfolio_section big_padding" style="padding-bottom: 0;">
-
-            <div class="container">
-
-                <p class="default_small_heading raleway text-center blue_color font_200">Let's Try</p>
-
-                <h2 class="default_section_heading text-center">
-
-                    <span class="font_200"> Our </span>
-
-                    Delicious
-
-                    <span class="font_200">Food</span>
-
-                </h2>
-
-                <hr class="default_divider default_divider_blue default_divider_big">
-
-            </div>
-
-            <div  class="cube_fullwidth_style_portfolio">
-
-                <div id="js-filters-mosaic-flat" class="cbp-l-filters-buttonCenter open_sans">
-
-                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item open_sans button bg_before_pink">
-
-                        All
-
-                        <div class="cbp-filter-counter"></div>
-
-                    </div>
-
-                    <div data-filter=".breakfast" class="cbp-filter-item open_sans button bg_before_pink">
-
-                        Breakfast & Lunch
-
-                        <div class="cbp-filter-counter"></div>
-
-                    </div>
-
-                    <div data-filter=".dinner" class="cbp-filter-item open_sans button bg_before_pink">
-
-                        Dinner
-
-                        <div class="cbp-filter-counter"></div>
-
-                    </div>
-
-                    <div data-filter=".drink" class="cbp-filter-item open_sans button bg_before_pink">
-
-                        Drink & Beverages
-
-                        <div class="cbp-filter-counter"></div>
-
-                    </div>
-
-                </div>
-
-                <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">
-
-                    <div class="cbp-item breakfast">
-
-                        <a href="images/site-images/products/menu-1.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-1.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">Bolt UI</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item drink">
-
-                        <a href="images/food-resturant-assets/images/menu-2.jpg" class="cbp-caption cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-2.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">World Clock</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item breakfast">
-
-                        <a href="images/food-resturant-assets/images/menu-3.jpg" class="cbp-caption cbp-lightbox" data-title="WhereTO App<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-3.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">WhereTO App</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item dinner">
-
-                        <a href="images/food-resturant-assets/images/menu-4.jpg" class="cbp-caption cbp-lightbox" data-title="Digital Menu<br>by Cosmin Capitanu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-4.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">Digital Menu</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item breakfast">
-
-                        <a href="images/food-resturant-assets/images/menu-6.jpg" class="cbp-caption cbp-lightbox" data-title="iDevices<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-6.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">iDevices</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item dinner">
-
-                        <a href="images/food-resturant-assets/images/menu-5.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-5.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">Seemple* Music</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item dinner">
-
-                        <a href="images/food-resturant-assets/images/menu-7.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-7.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">Bolt UI</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item breakfast">
-
-                        <a href="images/food-resturant-assets/images/menu-8.jpg" class="cbp-caption cbp-lightbox" data-title="World Clock<br>by Paul Flavius Nechita">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-8.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">World Clock</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item dinner">
-
-                        <a href="images/food-resturant-assets/images/menu-9.jpg" class="cbp-caption cbp-lightbox" data-title="WhereTO App<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-9.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">WhereTO App</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item dinner">
-
-                        <a href=images/food-resturant-assets/images/menu-10.jpg" class="cbp-caption cbp-lightbox" data-title="Digital Menu<br>by Cosmin Capitanu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-10.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">Digital Menu</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item breakfast">
-
-                        <a href="images/food-resturant-assets/images/menu-12.jpg" class="cbp-caption cbp-lightbox" data-title="iDevices<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-12.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">iDevices</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                    <div class="cbp-item breakfast">
-
-                        <a href="images/food-resturant-assets/images/menu-11.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music<br>by Tiberiu Neamu">
-
-                            <div class="cbp-caption-defaultWrap">
-
-                                <img src="images/food-resturant-assets/images/menu-11.jpg" alt="">
-
-                            </div>
-
-                            <div class="cbp-caption-activeWrap">
-
-                                <div class="cbp-l-caption-alignCenter">
-
-                                    <div class="cbp-l-caption-body">
-
-                                        <div class="cbp-l-caption-title">Seemple* Music</div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section> -->
-
-        <!-- /Portfolio Section -->
-
+  
+        <?php /* 
+        
         <section class="team_section big_padding text-center " id="team">
 
             <div class="container">
@@ -1747,7 +1359,7 @@
 
                                         <li>
 
-                                            <a href="#." class="team_members_icons anchor_none_style google_team">
+                                            <a href="{{ url('/products/all') }}" class="team_members_icons anchor_none_style google_team">
 
                                                 <i class="fa fa-linkedin team_members_icon_inner" aria-hidden="true"></i>
 
@@ -1795,7 +1407,7 @@
 
                                     <p class="default_text text-center open_sans">COO</p>
 
-                                    <!-- <ul class="team_members_list">
+                                    <ul class="team_members_list">
 
                                         <li>
 
@@ -1827,7 +1439,7 @@
 
                                         </li>
 
-                                    </ul> -->
+                                    </ul>
 
                                 </div>
 
@@ -1947,6 +1559,7 @@
 
         </section>
 
+        */ ?>
         <!-- Half Section -->
 
        <!--  <section class="half_section_main half_section_right bg_grey">
@@ -2755,68 +2368,68 @@
     <!-- /Parent Section Ended -->
 
     <!-- jQuery 2.2.0-->
-    <script src="js/jquery.js"></script>
+    <script src="{{ asset('/js/jquery.js') }}"></script>
 
     <!-- Google Map Api -->
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U" type="text/javascript"></script>
-    <script src="js/map.js" type="text/javascript"></script>
+    <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U" type="text/javascript"></script> -->
+    <script src="{{ asset('/js/map.js') }}" type="text/javascript"></script>
 
     <!-- REVOLUTION JS FILES -->
-    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="{{ asset('/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/jquery.themepunch.revolution.min.js') }}"></script>
 
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/extensions/revolution.extension.video.min.js') }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 
     <!-- Owl Carousel 2 Core JavaScript -->
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/owl.animate.js"></script>
-    <script src="js/owl.autoheight.js"></script>
-    <script src="js/owl.autoplay.js"></script>
-    <script src="js/owl.autorefresh.js"></script>
-    <script src="js/owl.hash.js"></script>
-    <script src="js/owl.lazyload.js"></script>
-    <script src="js/owl.navigation.js"></script>
-    <script src="js/owl.support.js"></script>
-    <script src="js/owl.video.js"></script>
+    <script src="{{ asset('/js/owl.carousel.js') }}"></script>
+    <script src="{{ asset('/js/owl.animate.js') }}"></script>
+    <script src="{{ asset('/js/owl.autoheight.js') }}"></script>
+    <script src="{{ asset('/js/owl.autoplay.js') }}"></script>
+    <script src="{{ asset('/js/owl.autorefresh.js') }}"></script>
+    <script src="{{ asset('/js/owl.hash.js') }}"></script>
+    <script src="{{ asset('/js/owl.lazyload.js') }}"></script>
+    <script src="{{ asset('/js/owl.navigation.js') }}"></script>
+    <script src="{{ asset('/js/owl.support.js') }}"></script>
+    <script src="{{ asset('/js/owl.video.js') }}"></script>
 
     <!-- Fancy Box Javacript -->
-    <script src="js/jquery.fancybox.js"></script>
+    <script src="{{ asset('/js/jquery.fancybox.js') }}"></script>
 
     <!-- Wow Js -->
-    <script src="js/wow.min.js"></script>
+    <script src="{{ asset('/js/wow.min.js') }}"></script>
 
     <!-- Appear Js-->
-    <script src="js/jquery.appear.js"></script>
+    <script src="{{ asset('/js/jquery.appear.js') }}"></script>
 
     <!-- Countdown Js -->
-    <script src="js/jquery.countdown.js"></script>
+    <script src="{{ asset('/js/jquery.countdown.js') }}"></script>
 
     <!-- Parallax Js -->
-    <script src="js/parallax.min.js"></script>
+    <script src="{{ asset('/js/parallax.min.js') }}"></script>
 
     <!-- Cube Portfolio Core JavaScript -->
-    <script src="js/jquery.cubeportfolio.min.js"></script>
+    <script src="{{ asset('/js/jquery.cubeportfolio.min.js') }}"></script>
 
     <!-- Circliful Core JavaScript -->
-    <script src="js/jquery.circliful.min.js"></script>
+    <script src="{{ asset('/js/jquery.circliful.min.js') }}"></script>
 
     <!-- Swiper Slider Core JavaScript -->
-    <script src="js/swiper.min.js"></script>
+    <script src="{{ asset('/js/swiper.min.js') }}"></script>
 
     <!-- Custom JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="{{ asset('/js/script.js') }}"></script>
 
     <!-- Food Custom Script -->
     <script src="images/food-resturant-assets/js/script.js"></script>

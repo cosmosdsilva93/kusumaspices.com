@@ -18,6 +18,7 @@
 Route::get('/', 'HomeController@comingSoon');
 Route::get('/demo', 'HomeController@demo');
 Route::get('/contact-us', 'HomeController@contactUs');
+Route::get('/products/{category}', 'HomeController@products');
 
 // Route::get('/', 'HomeController@coming_soon')->name('home');
 

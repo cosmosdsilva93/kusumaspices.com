@@ -43,4 +43,10 @@ class HomeController extends Controller
  	        echo json_encode($response);
  	    }
  	}
+
+ 	public function products($category = '') 
+ 	{	
+ 		$data['title'] = 'Products';
+ 		return view('home.products', $data);
+ 	}
 }
