@@ -642,7 +642,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/blended-spices.jpg">
+                                                <img src="images/site-images/categories/blended-spices.jpg" height="240px">
 
                                             </div>
 
@@ -666,7 +666,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/snack-mix.jpg">
+                                                <img src="images/site-images/categories/snack-mix.jpg" height="240px;">
 
                                             </div>
 
