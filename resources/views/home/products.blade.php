@@ -100,10 +100,12 @@
 
             <nav class="navbar navbar-fixed-top green shrink" style="">
                 <div class="container-fluid">
-            
+                    <!-- <div class="right back-bttn" >
+                        <a href="{{ url('/') }}" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Go Back</a>
+                    </div> -->
                     <div class="container">
                         <div class="navbar-header" style="top:-25%;">
-                            <a class="navbar-brand" href="{{ url('/demo') }}"><img src="{{ asset('images/site-images/logo.png') }}" alt="logo" style="width:102px;"></a>
+                            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/site-images/logo.png') }}" alt="logo" style="width:102px;"></a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-ex1-collapse  ">
@@ -121,7 +123,7 @@
                                     <!-- <li><a href="#pricing_table" class="scroll">Pricing</a></li> -->
                                     <!-- <li><a href="#review" class="scroll">Testimonials</a></li> -->
                                     <!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
-                                    <!-- <li><a href="#contact-form" class="scroll">Contact Us</a></li> -->
+                                    <!-- <li><a href="{{ url('/') }}">Go Back</a></li> -->
                                 </ul>
                             </div>
 
@@ -146,7 +148,7 @@
 
         <!-- Skill Heading Section -->
         <br><br>
-        <section class="combined_skills_section big_padding bg_grey" style="padding:50px 0 !important;">
+        <section id="pure-spices" class="combined_skills_section big_padding bg_grey" style="padding:55px 0 !important;">
 
 
             <!-- <section class="skill_section" > -->
@@ -169,7 +171,7 @@
 
                         </h2>
 
-                        <hr class="default_divider default_divider_blue default_divider_big">
+                        <hr class="default_divider default_divider_blue">
                         
                         <div class="food_menu_section"> 
                             <div class="row">
@@ -178,15 +180,15 @@
 
                                         <div class="menu-detail-outer">
 
-                                            <div class="menu-img">
+                                            <div class="menu-img" >
 
                                                 <img src="{{ asset('images/site-images/products/Kusuma_Hing_F.jpg') }}" height="400px">
-
+                                                
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <!-- <span class="font_600 text-right">&#8377; 120</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing (Asafoetida) <!-- <span class="font_600 text-right">&#8377; 120</span> --></h2>
 
                                             </div>
 
@@ -208,7 +210,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <!-- <span class="font_600 text-right">&#8377; 35</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera (Cumin) <!-- <span class="font_600 text-right">&#8377; 35</span> --></h2>
 
                                             </div>
 
@@ -230,7 +232,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <!-- <span class="font_600 text-right">&#8377; 15</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori (Mustard Seed) <!-- <span class="font_600 text-right">&#8377; 15</span> --></h2>
 
                                             </div>
 
@@ -253,7 +255,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <!-- <span class="font_600 text-right">&#8377; 30</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel (Sesame Seeds)<!-- <span class="font_600 text-right">&#8377; 30</span> --></h2>
 
                                             </div>
 
@@ -274,7 +276,7 @@
 
         </section>
 
-        <section class="combined_skills_section big_padding bg_grey" style="padding:50px 0 !important;">
+        <section id="ground-spices" class="combined_skills_section big_padding bg_grey" style="padding:55px 0 !important;">
 
 
             <!-- <section class="skill_section" > -->
@@ -297,7 +299,7 @@
 
                         </h2>
 
-                        <hr class="default_divider default_divider_blue default_divider_big">
+                        <hr class="default_divider default_divider_blue">
                         <div class="food_menu_section"> 
                             <div class="row">
                                 <div class="col-md-4">
@@ -313,7 +315,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Halad (Turmeric Powder) <!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -334,7 +336,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder (Red Chilli Powder) <!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -347,7 +349,7 @@
 
                                         <div class="menu-detail-outer">
 
-                                            <div class="menu-img">
+                                            <div class="menu-img ">
 
                                                 <img src="{{ asset('images/site-images/products/Kusuma_Kashmiri Mirchi_F.jpg') }}" height="400px">
 
@@ -355,7 +357,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <!-- <span class="font_600 text-right">&#8377; 60</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder (Kashmiri Red Chilli Powder) <!-- <span class="font_600 text-right">&#8377; 60</span> --></h2>
 
                                             </div>
 
@@ -378,7 +380,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder (Cumin Powder) <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                             </div>
 
@@ -399,7 +401,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania Powder<!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania Powder (Coriander Powder)<!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -418,7 +420,7 @@
 
         </section>
 
-        <section class="combined_skills_section big_padding bg_grey" style="padding:50px 0 !important;">
+        <section id="blended-spices" class="combined_skills_section big_padding bg_grey" style="padding:55px 0 !important;">
 
 
             <section class="skill_section" >
@@ -441,14 +443,19 @@
 
                         </h2>
 
-                        <hr class="default_divider default_divider_blue default_divider_big">
+                        <hr class="default_divider default_divider_blue">
                         <div class="row">
                             <div class="col-md-4">
                                 <a class="anchor_style_default" href="#.">
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Our Garam Masala as the name suggests is a blend of choicest spices that can be used
+to impart a distinct aroma to your recipes.&NewLine;This is a must-have for adding that special touch and flavour
+to your Pulao, Biryani and other Punjabi recipes like Chole &amp; Paneer. &NewLine; Our ‘Garam Masala&#39; with its
+distinct aroma and taste is already a hit, and we are confident to receive a similar response from you
+too. &NewLine;Garam Masala&#39; consists of high-quality ingredients, and you will relish any recipe it will be used
+for. &NewLine;Enjoy the real taste &amp; aroma of PUNJABI garam masala to your heart&#39;s content.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Garam Masala_F.jpg') }}" height="400px">
 
@@ -469,7 +476,11 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="A must-have in any Maharashtrian kitchen. It is most widely used and a cherished mix
+of spices favourite for its inviting aroma and delectable taste. This unique taste for which our Goda
+Masala is most famous in Marathi kitchen is a result of using best quality ingredients. Can be used for
+making finger licking Dry Vegetables (Sukhi Sabji), Curry Masala/Vegetables (Rassa bhaji), Masala Rice
+(Masala Bhaat) and Tadka Dal (Amti)">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Goda Masala_F.jpg') }}" height="400px">
 
@@ -490,7 +501,11 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Kanda Masala is a spicy, lip-smacking blend of high-quality spices in the most
+authentic Kolhapuri style. The unique feature of this Kanda Masala (a perfect mix of wet ginger, garlic,
+onion &amp; spices) is its texture and color which unlike many is almost in powdered form rather than a
+lumpy cluster of globules. It is used in preparation of spicy vegetable with or without curry like stuffed
+brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Kanda Masala_F.jpg') }}" height="400px">
 
@@ -513,7 +528,7 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Metkut is a Maharashtrian marvel. Metkut when mixed with rice and dollops of ghee, turns into a dish where every morsel makes you nostalgic and takes you back to your good old childhood. It’s a mix of dry roasted rice, lentils & spices which aids digestion& gives instant energy. Good for babies too.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Metkut_F.jpg') }}" height="400px">
 
@@ -534,7 +549,7 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Mix of lentils & spice – when added to yogurt along with onion make a quick & tasty high protein raita.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Daangar_F.jpg') }}" height="400px">
 
@@ -563,9 +578,7 @@
 
         </section>
 
-        <section class="combined_skills_section big_padding bg_grey" style="padding: 50px 0 !important;" >
-
-
+        <section id="snack-mix" class="combined_skills_section big_padding bg_grey" style="padding:55px 0 !important;" >
             <!-- <section class="skill_section" > -->
 
                 <div class="container">
@@ -586,7 +599,7 @@
 
                         </h2>
 
-                        <hr class="default_divider default_divider_blue default_divider_big">
+                        <hr class="default_divider default_divider_blue">
                         
                         <div class="row">
                             <div class="col-md-4">
@@ -594,7 +607,7 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Our favourite snack was Ajji’s Bhajani Thalipeeth (grandmother’s homemade flatbread). Easy to make and a wholesome mix of grains, pulses, legumes & millets grounded to perfection that gave us iron calcium and much needed dietary fibres. Healthy, tasty & nutritious anytime snack.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Thalipeeth_F.jpg') }}" height="400px">
 
@@ -615,7 +628,7 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="This variation is the fasting version of one of the most liked dishes of Maharashtra – Thalipeeth. This is a farali adaption of the classic thalipeeth where the multigrain is replaced with Samo rice, Tapioca, Amaranth and other spices. This is a delicious and healthy breakfast idea even on non-fasting days. This flatbread tastes as good as the classic Thalipeeth or instead tastes a tad better.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_UPasachi Bhajani_F.jpg') }}" height="400px">
 
@@ -636,7 +649,7 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Bhajani Chakli a must have favourite snack of Maharashtrians in Diwali, which is - salty, savoury and crisp. It is the one snack that you cannot stop nibbling. The flour is made from roasted rice & lentils along with spices.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Chakali Bhajani_F.jpg') }}" height="400px">
 
@@ -664,7 +677,7 @@
 
         </section>
 
-        <section class="combined_skills_section big_padding bg_grey" style="padding: 50px 0 !important;" >
+        <section id="snacks" class="combined_skills_section big_padding bg_grey" style="padding:55px 0 !important;" >
 
 
             <!-- <section class="skill_section" > -->
@@ -687,7 +700,7 @@
 
                         </h2>
 
-                        <hr class="default_divider default_divider_blue default_divider_big">
+                        <hr class="default_divider default_divider_blue">
                             
                         <div class="row">
                             <div class="col-md-4">
@@ -695,7 +708,7 @@
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img">
+                                        <div class="menu-img img-container" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident veniam, aut autem alias minima, deleniti in accusantium aspernatur laborum placeat nemo culpa voluptate, assumenda cupiditate consequatur. Ipsum, optio distinctio blanditiis.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Chivada_F.jpg') }}" height="400px">
 
@@ -727,7 +740,7 @@
 
         <!-- Footer Section -->
 
-        <footer class="footer_section big_padding bg_navy">
+        <footer class="footer_section bg_navy" style="padding: 30px 0;">
 
             <div class="container">
 
@@ -803,6 +816,16 @@
 
     <!-- jQuery 2.2.0-->
     <script src="{{ asset('/js/jquery.js') }}"></script>
+
+    <?php if($category != ''){ ?>
+    <script type="text/javascript">
+        $(function(){
+            $('html, body').animate({
+                scrollTop: $('#<?php echo $category; ?>').offset().top
+            }, 500);
+        });
+    </script>
+    <?php } ?>
 
 
     <!-- REVOLUTION JS FILES -->

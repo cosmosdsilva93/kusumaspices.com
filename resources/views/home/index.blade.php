@@ -112,7 +112,7 @@
 
                     <div class="container">
                         <div class="navbar-header" style="top:-40%;">
-                            <a class="navbar-brand" href="#"><img src="images/site-images/logo.png" alt="logo" style="width:102px;"></a>
+                            <a class="navbar-brand" href="{{ url('/') }}"><img src="images/site-images/logo.png" alt="logo" style="width:102px;"></a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse navbar-ex1-collapse  ">
@@ -131,6 +131,11 @@
                                     <li><a href="#review" class="scroll">Testimonials</a></li>
                                     <!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
                                     <li><a href="#contact-form" class="scroll">Contact Us</a></li>
+                                    <li>
+                                        <a href="#" class="scroll" style="text-align: center;">Recipes</a>
+                                        <a href=""><span class="blinking">Coming Soon</span></a>
+                                    </li>
+                                    
                                 </ul>
                             </div>
 
@@ -140,7 +145,7 @@
 
                     <div class="sidebar_menu">
                         <nav class="pushmenu pushmenu-right">
-                            <a class="push-logo" href="#"><img src="images/site-images/logo.png" alt="logo"></a>
+                            <a class="push-logo" href="{{ url('/') }}"><img src="images/site-images/logo.png" alt="logo"></a>
                             <ul class="push_nav centered">
                                 <li class="clearfix">
                                     <a href="#home" class="scroll"><span>01.</span>Home</a>
@@ -168,6 +173,13 @@
                                 </li> -->
                                 <li class="clearfix">
                                     <a href="#contact-form" class="scroll"> <span>05.</span>Contact Us</a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#" class="scroll">
+                                        <span>06.</span>Recipes
+                                        &nbsp;&nbsp;
+                                        <span class="blinking" style="font-size: 10px;text-align: center;">Coming Soon</span>
+                                    </a>
                                 </li>
                             </ul>
                             <div class="clearfix"></div>
@@ -218,207 +230,6 @@
                                      data-paddingleft="[0,0,0,0]"
 
                                      style="z-index: 5;border-width:0px;"><img src="images/site-images/logo.png" alt="" data-ww="['400px','400px','400px','400px']" data-hh="['250px','250px','250px','250px']" width="400" height="250" data-no-retina> </div>
-
-                                <!-- id="layers-twel"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','10']"
-
-                                     data-actions=''
-                                     data-responsive_offset="on"
-                                     data-responsive="off"
-                                     data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     style="z-index: 999;padding-top: 25px;">
-                                    <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Check Us Out</a>
-         -->
-
-
-                                <!-- layer nr. 2 -->
-<!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
-                                     id="layers-two"
-                                     data-x="['right','right','right','right']" data-hoffset="['-35','-5','-70','-144']"
-                                     data-y="['top','top','top','top']" data-voffset="['20','-40','-80','-80']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-type="image"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 6;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-2.png" alt="" data-ww="['550px','550px','550px','550px']" data-hh="['471px','471px','471px','471px']" width="550" height="471" data-no-retina> </div>
- -->
-                                <!-- layer nr. 3 -->
-<!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
-                                     id="layers-three"
-                                     data-x="['left','left','left','left']" data-hoffset="['-392','-392','-540','-638']"
-                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-484','-484','-520','-522']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-type="image"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     data-frames='[{"from":"x:left;rZ:45deg;","speed":2500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 7;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-6.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="['1000px','1000px','1000px','1000px']" width="900" height="1000" data-no-retina> </div>
- -->
-                                <!-- layer nr. 4 -->
-<!--                                 <div class="tp-caption tp-resizeme rs-parallaxlevel-9"
-                                     id="layers-four"
-                                     data-x="['left','left','left','left']" data-hoffset="['134','134','-2','-57']"
-                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['67','67','50','6']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-type="image"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     data-frames='[{"from":"y:bottom;rZ:90deg;","speed":1500,"to":"o:1;","delay":1050,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 8;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-3.png" alt="" data-ww="['200px','200px','200px','200px']" data-hh="['300px','300px','300px','300px']" width="200" height="300" data-no-retina> </div>
- -->
-                                <!-- layer nr. 5 -->
-<!--                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
-                                     id="layers-five"
-                                     data-x="['left','left','left','left']" data-hoffset="['181','181','30','-39']"
-                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-170','-190','-212']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-type="image"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 9;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-5.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['400px','400px','400px','400px']" width="300" height="400" data-no-retina> </div>
- -->
-                                <!-- layer nr. 8 -->
-<!--                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
-                                     id="layers-six"
-                                     data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-453']"
-                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="image"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 12;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-4.png" alt="" data-ww="['730px','730px','730px','600']" data-hh="['520px','520px','520px','456']" width="730" height="520" data-no-retina> </div>
- -->
-                                <!-- layer nr. 9 -->
-<!--                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-9"
-                                     id="layers-sev"
-                                     data-x="['right','right','right','right']" data-hoffset="['222','222','105','8']"
-                                     data-y="['bottom','bottom','bottom','bottom']" data-voffset="['8','8','-17','-10']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="image"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"from":"x:right;rZ:90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['left','left','left','left']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 13;border-width:0px;"><img src="images/food-resturant-assets/images/food-element-rev-7.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['500px','500px','500px','500px']" width="300" height="500" data-no-retina> </div>
- -->
-                                <!-- layer nr. 10 -->
-<!--                                 <div class="tp-caption tp-resizeme"
-                                     id="layers-eight"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-90']"
-                                     data-fontsize="['70','70','70','50']"
-                                     data-lineheight="['80','80','80','60']"
-                                     data-width="['none','none','none','360']"
-                                     data-height="none"
-                                     data-whitespace="['nowrap','nowrap','nowrap','normal']"
-
-                                     data-type="text"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":510,"ease":"Power4.easeOut"},{"delay":640,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class=" navy_blue raleway default_section_heading">Fresh Food</h1></div>
- -->
-                                <!-- layer nr. 11 -->
-<!--                                 <div class="tp-caption tp-resizeme"
-                                     id="layers-nine"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-60','-90']"
-                                     data-fontsize="['70','70','70','50']"
-                                     data-lineheight="['80','80','80','60']"
-                                     data-width="['none','none','none','360']"
-                                     data-height="none"
-                                     data-whitespace="['nowrap','nowrap','nowrap','normal']"
-
-                                     data-type="text"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":2940,"ease":"Power4.easeOut"},{"delay":660,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Delicious Taste</h1></div>
- -->
-                                <!-- layer nr. 12 -->
-                                <!-- <div class="tp-caption"
-                                     id="layers-ten"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-20','-20','-20','-90']"
-                                     data-fontsize="['70','70','70','50']"
-                                     data-lineheight="['80','80','80','60']"
-                                     data-width="['none','none','none','400']"
-                                     data-height="none"
-                                     data-whitespace="['nowrap','nowrap','nowrap','normal']"
-
-                                     data-type="text"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":5390,"ease":"nothing"},{"delay":"wait","speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"nothing"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]" style="z-index: 19;"><h1 class="navy_blue raleway default_section_heading">Add a mother's touch to your food</h1></div> -->
-
                                     
                                 <!-- layer nr. 13 -->
                                 <div class="tp-caption tp-resizeme"
@@ -438,21 +249,8 @@
                                      data-textAlign="['center','center','center','center']"
                                     style="z-index:19;background-color: #ffffff;border-radius:5px;"><h1 style="padding:5px !important; color:#373435 !important;" class="navy_blue raleway default_section_heading">Add a mother's touch to your food</h1></div>
 
-
-                                <!-- <div class="tp-caption rev-btn"
-                                     id="layers-twel"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']"
-
-                                     data-actions=''
-                                     data-responsive_offset="on"
-                                     data-responsive="off"
-                                     data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                     style="z-index: 999;padding-top: 25px;">
-                                    <a class="navbar-brand" href="#"><img src="images/site-images/logo.png" alt="logo" style="width:102px;"></a>
-                                </div> -->
                                 <!-- layer nr. 14 -->
-                                <div class="tp-caption rev-btn"
+                                <!-- <div class="tp-caption rev-btn"
                                      id="layers-twel"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
@@ -463,10 +261,10 @@
                                      data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                      style="z-index: 999; padding-top:200px;padding-left: 20px;">
                                     <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Visit Site</a>
-                                </div>
+                                </div> -->
 
                                 <!-- layer nr. 15 -->
-                                <!-- <div class="tp-caption rev-scroll-btn revs-dark"
+                                <div class="tp-caption rev-scroll-btn revs-dark"
                                      id="layers-thir"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','70','50']"
@@ -488,8 +286,8 @@
 
                                      style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:2px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
                                     <span></span>
-                                </div> -->
- </li>
+                                </div>
+                            </li>
                         </ul>
                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
 
@@ -505,7 +303,7 @@
 
         <!-- Stats Section -->
 
-        <section class="big_padding stats-section"  data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
+        <section class="big_padding stats-section" id="skill_section" data-parallax="scroll" data-image-src="images/site-images/stats.jpg" style="background: rgba(0, 0, 0, 0.7);">
 
             <div class="container">
 
@@ -577,7 +375,7 @@
 
         <!-- Half Section -->
 
-        <section class="food-company-section big_padding" id="skill_section" style="background-color: #F2F2F2;">
+        <section class="food-company-section big_padding" style="background-color: #F2F2F2;">
 
             <div class="container container_big">
 
@@ -594,21 +392,50 @@
                 <hr class="default_divider default_divider_blue default_divider_big">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    Kusuma - An unusual combination of purity, taste and tradition passed down over two generations and carried forward by the third.
-                </p>
-                <br>
-                <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother “Kusum.”
-                </p>
-                <br>
-                <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    We bring to you Kusuma Spices/masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste. Apart from adding unique flavour & taste, consumption of these spices provide infinite health benefits.  
-                </p>
-                <br>
-                <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    Our spices will remind you of the simplistic times and delicious home-cooked food by our grandmothers
-                </p>
+                <!-- <div class="team_detail wow slideInLeft" align="left"> -->
+                    <div class="row">
+                        <div class="col-md-3" id="desktop-kusum-img">
+                            <div class="team_detail_inner">
+
+                                <img src="images/site-images/kusumtai.jpg" alt="team_img">
+
+                            </div>
+
+                            <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400" style="transform: translateX(10px); padding-top: 10px;"><strong>Kusum Deshpande</strong></h3>    
+                        </div>
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                                Kusuma - An unusual combination of purity, taste and tradition passed down over two generations and carried forward by the third.
+                            </p>
+                            <br>
+                            <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                                Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother “Kusum.”
+                            </p>
+                        </div>
+                    </div>    
+                <!-- </div> -->
+                    <br>
+                    <div class="row" id="mobile-kusum-img">
+                        <div class="team_detail_inner">
+
+                            <img src="images/site-images/kusumtai.jpg" alt="team_img">
+
+                        </div>
+
+                        <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400" style="transform: translateX(10px); padding-top: 10px;"><strong>Kusum Deshpande</strong></h3>    
+                        <br>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                                We bring to you Kusuma Spices/masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste. Apart from adding unique flavour & taste, consumption of these spices provide infinite health benefits.  
+                            </p>
+                            <br>
+                            <p class="default_text open_sans default_text_light" style="text-align: justify;">
+                                Our spices will remind you of the simplistic times and delicious home-cooked food by our grandmothers
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div col-md-1></div>
                 <!-- <div class="col-md-3">
@@ -762,7 +589,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
+                                    <a class="anchor_style_default" href="{{ url('/products/pure-spices') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -785,7 +612,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
+                                    <a class="anchor_style_default" href="{{ url('/products/ground-spices') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -809,7 +636,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
+                                    <a class="anchor_style_default" href="{{ url('/products/blended-spices') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -833,7 +660,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
+                                    <a class="anchor_style_default" href="{{ url('/products/snack-mix') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -857,7 +684,7 @@
 
                                 <div class="swiper-slide">
 
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
+                                    <a class="anchor_style_default" href="{{ url('/products/snacks') }}">
 
                                         <div class="menu-detail-outer">
 
@@ -1884,7 +1711,7 @@
 
         <!-- Footer Section -->
 
-        <footer class="footer_section big_padding bg_navy">
+        <footer class="footer_section bg_navy" style="padding: 30px 0;">
 
             <div class="container">
 

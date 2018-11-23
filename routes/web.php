@@ -15,8 +15,8 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'HomeController@comingSoon');
-Route::get('/demo', 'HomeController@demo');
+Route::get('/', 'HomeController@home');
+// Route::get('/demo', 'HomeController@demo');
 Route::get('/contact-us', 'HomeController@contactUs');
 Route::get('/products/{category}', 'HomeController@products');
 

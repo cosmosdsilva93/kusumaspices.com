@@ -240,10 +240,10 @@ $(".form_class input, .form_class textarea").keyup(function() {
     $("#result").slideUp();
 });
 
-$(".scroll").on('click', function (event) {
-    event.preventDefault();
-    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-});
+// $(".scroll").on('click', function (event) {
+//     event.preventDefault();
+//     $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+// });
 
 
 //scroll nav

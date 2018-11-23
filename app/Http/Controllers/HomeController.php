@@ -17,9 +17,9 @@ class HomeController extends Controller
  		return view('home.coming-soon', $data);
  	}
 
- 	public function demo() 
+ 	public function home() 
  	{	
- 		$data['title'] = 'Demo';
+ 		$data['title'] = 'Home';
  		return view('home.index', $data);
  	}
 
@@ -47,6 +47,7 @@ class HomeController extends Controller
  	public function products($category = '') 
  	{	
  		$data['title'] = 'Products';
+ 		$data['category'] = $category;
  		return view('home.products', $data);
  	}
 }
