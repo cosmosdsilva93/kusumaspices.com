@@ -40,9 +40,9 @@ $('#contact-us-form').on('submit', function(e){
 $(window).on('scroll', function () {
     // console.log($(window).scrollTop());
     if ($(window).scrollTop() > 600) { // Set position from top to add class
-        $('.navbar').addClass("shrink");
-        $('.navbar .navbar-header').attr('style', 'top:-27%;');
-        $('.navbar').show();
+        $('#home-page .navbar').addClass("shrink");
+        $('#home-page .navbar .navbar-header').attr('style', 'top:-27%;');
+        $('#home-page .navbar').show();
         
         // console.log('if');
         
@@ -70,8 +70,8 @@ $(window).on('scroll', function () {
         // $('.index-only-side-nav .navbar').removeClass("shrink");
 
     } else {
-        $('.navbar').hide();
-        $('.navbar').removeClass("shrink");
+        $('#home-page .navbar').hide();
+        $('#home-page .navbar').removeClass("shrink");
 
 
         // $('.navbar .navbar-brand> img').attr('src', 'images/logo.png');

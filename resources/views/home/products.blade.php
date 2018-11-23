@@ -94,26 +94,39 @@
 
 
         <!-- Header Section -->
-<?php /*
         <header>
 
             <!-- Navbar Section -->
 
-            <nav class="navbar navbar-fixed-top green" style="">
+            <nav class="navbar navbar-fixed-top green shrink" style="">
                 <div class="container-fluid">
-                    <!--second nav button -->
-                    <div id="menu_bars" class="right menu_bars">
-                        <span class="t1"></span>
-                        <span class="t2"></span>
-                        <span class="t3"></span>
-                    </div>
-                    <!-- Brand and toggle get grouped for better mobile display -->
-
-
+            
                     <div class="container">
-                        <div class="navbar-header" style="top:-40%;">
-                            <a class="navbar-brand" href="#"><img src="{{ asset('images/site-images/logo.png" alt="logo" style="width:102px;"></a>
- ') }}                       </div>
+                        <div class="navbar-header" style="top:-25%;">
+                            <a class="navbar-brand" href="{{ url('/demo') }}"><img src="{{ asset('images/site-images/logo.png') }}" alt="logo" style="width:102px;"></a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse  ">
+
+                            <div class="navbar-left">
+                                <ul class="nav navbar-nav">
+                                    <!-- <li class="active"><a href="#home" class="scroll">Home</a></li> -->
+                                    <!-- <li><a href="#skill_section" class="scroll">About Us</a></li> -->
+                                    <!-- <li><a href="#work" class="scroll">Our Products</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="navbar-right">
+                                <ul class="nav navbar-nav">
+                                    <!-- <li><a href="#team" class="scroll">Our Team</a></li> -->
+                                    <!-- <li><a href="#pricing_table" class="scroll">Pricing</a></li> -->
+                                    <!-- <li><a href="#review" class="scroll">Testimonials</a></li> -->
+                                    <!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
+                                    <!-- <li><a href="#contact-form" class="scroll">Contact Us</a></li> -->
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
                     </div>
                 </div>
             </nav>
@@ -125,14 +138,14 @@
             <!-- /Main Slider Section -->
 
         </header>
-*/ ?>
+
         <!-- /Header Section -->
 
     
         <!-- Circle Js Skill Section -->
 
         <!-- Skill Heading Section -->
-
+        <br><br>
         <section class="combined_skills_section big_padding bg_grey" style="padding:50px 0 !important;">
 
 
@@ -173,7 +186,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <span class="font_600 text-right">&#8377; 120</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <!-- <span class="font_600 text-right">&#8377; 120</span> --></h2>
 
                                             </div>
 
@@ -195,7 +208,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <span class="font_600 text-right">&#8377; 35</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <!-- <span class="font_600 text-right">&#8377; 35</span> --></h2>
 
                                             </div>
 
@@ -217,7 +230,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <span class="font_600 text-right">&#8377; 15</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <!-- <span class="font_600 text-right">&#8377; 15</span> --></h2>
 
                                             </div>
 
@@ -240,7 +253,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <span class="font_600 text-right">&#8377; 30</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <!-- <span class="font_600 text-right">&#8377; 30</span> --></h2>
 
                                             </div>
 
@@ -300,7 +313,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <span class="font_600 text-right">&#8377; 40</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -321,7 +334,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <span class="font_600 text-right">&#8377; 40</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -342,7 +355,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <span class="font_600 text-right">&#8377; 60</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <!-- <span class="font_600 text-right">&#8377; 60</span> --></h2>
 
                                             </div>
 
@@ -365,7 +378,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <span class="font_600 text-right">&#8377; 50</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                             </div>
 
@@ -386,7 +399,7 @@
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania Powder<span class="font_600 text-right">&#8377; 40</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania Powder<!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -443,7 +456,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Garam Masala <span class="font_600 text-right">&#8377; 100</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Garam Masala <!-- <span class="font_600 text-right">&#8377; 100</span> --></h2>
 
                                         </div>
 
@@ -464,7 +477,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Goda Masala <span class="font_600 text-right">&#8377; 70</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Goda Masala <!-- <span class="font_600 text-right">&#8377; 70</span> --></h2>
 
                                         </div>
 
@@ -485,7 +498,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kanda Masala <span class="font_600 text-right">&#8377; 50</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kanda Masala <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                         </div>
 
@@ -508,7 +521,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Metkut <span class="font_600 text-right">&#8377; 50</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Metkut <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                         </div>
 
@@ -529,7 +542,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Daangar <span class="font_600 text-right">&#8377; 50</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Daangar <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                         </div>
 
@@ -589,7 +602,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Thalipeeth Bhajani <span class="font_600 text-right">&#8377; 50</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Thalipeeth Bhajani <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                         </div>
 
@@ -610,7 +623,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Upasachi Bhajani <span class="font_600 text-right">&#8377; 50</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Upasachi Bhajani <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                         </div>
 
@@ -631,7 +644,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chakali Bhajani<span class="font_600 text-right">&#8377; 50</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chakali Bhajani<!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                         </div>
 
@@ -690,7 +703,7 @@
 
                                         <div class="menu-detail bg_white">
 
-                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chivada <span class="font_600 text-right">&#8377; 30</span></h2>
+                                            <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chivada <!-- <span class="font_600 text-right">&#8377; 30</span> --></h2>
 
                                         </div>
 

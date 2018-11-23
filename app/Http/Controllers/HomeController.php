@@ -35,7 +35,7 @@ class HomeController extends Controller
  	        $response['msg'] = 'We have received your query. We will get back to you shortly.';
  	        
  	        \Mail::send('email.contact-us', $request, function($message) use ($request) {
- 	            $message->to('cosmosdsilva93@gmail.com', 'Kusumas Spices')
+ 	            $message->to('kusumaspices@gmail.com', 'Kusumas Spices')
  	                    ->subject('[kusumaspices.com] - Query by ' . $request['name']);
  	            $message->from($request['email'], $request['name']);
  	        });

@@ -95,7 +95,7 @@
 
         <!-- Header Section -->
 
-        <header>
+        <header id="home-page">
 
             <!-- Navbar Section -->
 
@@ -151,23 +151,23 @@
                                 <li class="clearfix">
                                     <a href="#work" class="scroll"> <span>03.</span>Our Products</a>
                                 </li>
-                                <li class="clearfix">
+                                <!-- <li class="clearfix">
                                     <a href="#team" class="scroll"> <span>04.</span>Our Team</a>
-                                </li>
+                                </li> -->
                                 <!-- 
                                 <li class="clearfix">
                                     <a href="#pricing_table" class="scroll"> <span>05.</span>Pricing</a>
 
                                 </li> -->
                                 <li class="clearfix">
-                                    <a href="#review" class="scroll"> <span>05.</span>Testimonials</a>
+                                    <a href="#review" class="scroll"> <span>04.</span>Testimonials</a>
 
                                 </li>
                                 <!-- <li class="clearfix">
                                     <a href="#blog" class="scroll"> <span>07.</span>Blog</a>
                                 </li> -->
                                 <li class="clearfix">
-                                    <a href="#contact-form" class="scroll"> <span>06.</span>Contact Us</a>
+                                    <a href="#contact-form" class="scroll"> <span>05.</span>Contact Us</a>
                                 </li>
                             </ul>
                             <div class="clearfix"></div>
@@ -462,7 +462,7 @@
                                      data-responsive="off"
                                      data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                      style="z-index: 999; padding-top:200px;padding-left: 20px;">
-                                    <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Check Us Out</a>
+                                    <a href="#skill_section" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Visit Site</a>
                                 </div>
 
                                 <!-- layer nr. 15 -->
@@ -595,19 +595,19 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                 <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kusuma - An unusual combination of purity, taste and tradition passed down over two generations and carried forward by the third.
+                    Kusuma - An unusual combination of purity, taste and tradition passed down over two generations and carried forward by the third.
                 </p>
                 <br>
                 <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother “Kusum.”
+                    Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother “Kusum.”
                 </p>
                 <br>
                 <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We bring to you Kusuma Spices/masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste. Apart from adding unique flavour & taste, consumption of these spices provide infinite health benefits.  
+                    We bring to you Kusuma Spices/masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste. Apart from adding unique flavour & taste, consumption of these spices provide infinite health benefits.  
                 </p>
                 <br>
                 <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our spices will remind you of the simplistic times and delicious home-cooked food by our grandmothers
+                    Our spices will remind you of the simplistic times and delicious home-cooked food by our grandmothers
                 </p>
                 </div>
                 <div col-md-1></div>
@@ -768,13 +768,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Ajwain_F.jpg" height="400px">
+                                                <img src="images/site-images/categories/pure-spices.jpg">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Ajwain  <!-- <span class="font_600 text-right">$21.00</span> --></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Pure Spices  <!-- <span class="font_600 text-right">$21.00</span> --></h2>
 
                                             </div>
 
@@ -791,37 +791,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Chakali Bhajani_F.jpg" height="400px">
+                                                <img src="images/site-images/categories/ground-spices.jpg">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chakali Bhajani<span class="font_600 text-right">&#8377; 50</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Chivada_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Chivada <span class="font_600 text-right">&#8377; 30</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Ground Spices<!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                             </div>
 
@@ -839,13 +815,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Daangar_F.jpg" height="400px">
+                                                <img src="images/site-images/categories/blended-spices.jpg">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Daangar <span class="font_600 text-right">&#8377; 50</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Blended Spices <!-- <span class="font_600 text-right">&#8377; 30</span> --></h2>
 
                                             </div>
 
@@ -863,13 +839,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Dhania_F.jpg" height="400px">
+                                                <img src="images/site-images/categories/snack-mix.jpg">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dhania Powder<span class="font_600 text-right">&#8377; 40</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Snack Mix <!-- <span class="font_600 text-right">&#8377; 50</span> --></h2>
 
                                             </div>
 
@@ -887,398 +863,13 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/products/Kusuma_Dried Chincha_F.jpg" height="400px">
+                                                <img src="images/site-images/categories/snacks.jpg">
 
                                             </div>
 
                                             <div class="menu-detail bg_white">
 
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Dried Chincha <!-- <span class="font_600 text-right">$3.00</span> --></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Garam Masala_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Garam Masala <span class="font_600 text-right">&#8377; 100</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Gawthi Teel_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Gawthi Teel <span class="font_600 text-right">&#8377; 30</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Goda Masala_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Goda Masala <span class="font_600 text-right">&#8377; 70</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Hing_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Hing <span class="font_600 text-right">&#8377; 120</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Jeera Powder_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera Powder <span class="font_600 text-right">&#8377; 50</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Jeera_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Jeera <span class="font_600 text-right">&#8377; 35</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Kanda Masala_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kanda Masala <span class="font_600 text-right">&#8377; 50</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Kashmiri Mirchi_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Kashmiri Mirchi Powder <span class="font_600 text-right">&#8377; 60</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Khobora_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Khobara <!-- <span class="font_600 text-right">$3.00</span> --></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Metkut_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Metkut <span class="font_600 text-right">&#8377; 50</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_MIrchi_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mirchi Powder <span class="font_600 text-right">&#8377; 40</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Mohori_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Mohori <span class="font_600 text-right">&#8377; 15</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Savaji Masala_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Savji Masala <!-- <span class="font_600 text-right">$3.00</span> --></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Thalipeeth_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Thalipeeth Bhajani <span class="font_600 text-right">&#8377; 50</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_Turmeric_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Turmeric Powder <span class="font_600 text-right">&#8377; 40</span></h2>
-
-                                            </div>
-
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="swiper-slide">
-
-                                    <a class="anchor_style_default" href="{{ url('/products/all') }}">
-
-                                        <div class="menu-detail-outer">
-
-                                            <div class="menu-img">
-
-                                                <img src="images/site-images/products/Kusuma_UPasachi Bhajani_F.jpg" height="400px">
-
-                                            </div>
-
-                                            <div class="menu-detail bg_white">
-
-                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Upasachi Bhajani <span class="font_600 text-right">&#8377; 50</span></h2>
+                                                <h2 class="default_small_heading navy_blue open_sans font_400 margin_0 clearfix">Snacks<!-- <span class="font_600 text-right">&#8377; 40</span> --></h2>
 
                                             </div>
 
@@ -2369,10 +1960,6 @@
 
     <!-- jQuery 2.2.0-->
     <script src="{{ asset('/js/jquery.js') }}"></script>
-
-    <!-- Google Map Api -->
-    <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U" type="text/javascript"></script> -->
-    <script src="{{ asset('/js/map.js') }}" type="text/javascript"></script>
 
     <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="{{ asset('/js/jquery.themepunch.tools.min.js') }}"></script>
