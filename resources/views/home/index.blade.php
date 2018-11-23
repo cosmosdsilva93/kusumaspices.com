@@ -690,7 +690,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/snack.jpg">
+                                                <img src="images/site-images/categories/snack.JPG">
 
                                             </div>
 
