@@ -708,7 +708,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                     <div class="menu-detail-outer">
 
-                                        <div class="menu-img img-container" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident veniam, aut autem alias minima, deleniti in accusantium aspernatur laborum placeat nemo culpa voluptate, assumenda cupiditate consequatur. Ipsum, optio distinctio blanditiis.">
+                                        <div class="menu-img img-container" data-content="Indian snacks have a fantastic spread &amp; our Poha Chivda or Chidva is one of the wonderful healthy snack alternative to the fried ones, an addictive tea time snack. Once you start can’t stop polishing off the bowl.">
 
                                             <img src="{{ asset('/images/site-images/products/Kusuma_Chivada_F.jpg') }}" height="400px">
 
