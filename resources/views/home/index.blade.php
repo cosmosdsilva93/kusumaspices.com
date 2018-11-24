@@ -1771,7 +1771,7 @@
 
                     </ul> -->
 
-                    <p class="text-center default_text open_sans white_color">&copy; 2018 Pixxel IT Services,  All rights reserved. </p>
+                    <p class="text-center default_text open_sans white_color">&copy; 2018 <a href="mailto:cosmosdsilva93@gmail.com" style="text-decoration: none; color:#fff;">Pixxel IT Services</a>,  All rights reserved. </p>
 
                 </div>
 
