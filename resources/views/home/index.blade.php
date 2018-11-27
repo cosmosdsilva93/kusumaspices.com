@@ -148,13 +148,13 @@
                             <a class="push-logo" href="{{ url('/') }}"><img src="images/site-images/logo.png" alt="logo"></a>
                             <ul class="push_nav centered">
                                 <li class="clearfix">
-                                    <a href="#home" class="scroll"><span>01.</span>Home</a>
+                                    <a href="#home" class="scroll">Home</a>
                                 </li>
                                 <li class="clearfix">
-                                    <a href="#skill_section" class="scroll"> <span>02.</span>About Us</a>
+                                    <a href="#skill_section" class="scroll">About Us</a>
                                 </li>
                                 <li class="clearfix">
-                                    <a href="#work" class="scroll"> <span>03.</span>Our Products</a>
+                                    <a href="#work" class="scroll">Our Products</a>
                                 </li>
                                 <!-- <li class="clearfix">
                                     <a href="#team" class="scroll"> <span>04.</span>Our Team</a>
@@ -165,18 +165,18 @@
 
                                 </li> -->
                                 <li class="clearfix">
-                                    <a href="#review" class="scroll"> <span>04.</span>Testimonials</a>
+                                    <a href="#review" class="scroll">Testimonials</a>
 
                                 </li>
                                 <!-- <li class="clearfix">
                                     <a href="#blog" class="scroll"> <span>07.</span>Blog</a>
                                 </li> -->
                                 <li class="clearfix">
-                                    <a href="#contact-form" class="scroll"> <span>05.</span>Contact Us</a>
+                                    <a href="#contact-form" class="scroll">Contact Us</a>
                                 </li>
                                 <li class="clearfix">
                                     <a href="#" class="scroll">
-                                        <span>06.</span>Recipes
+                                        Recipes
                                         &nbsp;&nbsp;
                                         <span class="blinking" style="font-size: 10px;text-align: center;">Coming Soon</span>
                                     </a>
@@ -307,9 +307,9 @@
 
             <div class="container">
 
-                <div class="row">
+                <div class="row" id="stats-row">
 
-                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+                    <div class="col-md-4 col-sm-4 margin_after_tab text-center">
 
                         <div class="stats_section_inner">
 
@@ -323,7 +323,7 @@
 
                     </div>
 
-                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+                    <div class="col-md-4 col-sm-4 margin_after_tab text-center">
 
                         <div class="stats_section_inner">
 
@@ -337,7 +337,7 @@
 
                     </div>
 
-                    <div class="col-md-4 col-sm-6 margin_after_tab text-center">
+                    <div class="col-md-4 col-sm-4 margin_after_tab text-center">
 
                         <div class="stats_section_inner">
 
@@ -416,14 +416,17 @@
                 <!-- </div> -->
                     <br>
                     <div class="row" id="mobile-kusum-img">
-                        <div class="team_detail_inner">
+                        <div class="col-sm-12">
+                            <div class="team_detail_inner">
 
-                            <img src="images/site-images/kusumtai.jpg" alt="team_img">
+                                <img src="images/site-images/kusumtai.jpg" alt="team_img">
 
+                            </div>
+
+                            <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400" style="transform: translateX(10px); padding-top: 10px;"><strong>Kusum Deshpande</strong></h3>    
                         </div>
-
-                        <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400" style="transform: translateX(10px); padding-top: 10px;"><strong>Kusum Deshpande</strong></h3>    
                         <br>
+
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -714,9 +717,9 @@
 
                             <!-- Add Arrows -->
 
-                            <div class="swiper-button-next fa fa-angle-right hidden-sm hidden-xs"></div>
+                            <div class="swiper-button-next fa fa-angle-right"></div>
 
-                            <div class="swiper-button-prev fa fa-angle-left hidden-sm hidden-xs"></div>
+                            <div class="swiper-button-prev fa fa-angle-left"></div>
                             
                         </div>
 
@@ -1366,6 +1369,18 @@
                                 </p>
 
                                 <p class="customer_feedback_name white_color open_sans default_small_heading font_600"> - Meghna Joshi</p>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <p class="customer_feedback_text white_color open_sans default_text font_200">
+                                    We always used Kusuma Spices when I was in Pune. Even when I moved to US 3 years ago, I have been bringing them back with me everytime I visit India. It always makes the food delicious and keeps the tastes and aromas of my chilhood alive.  
+
+
+                                </p>
+
+                                <p class="customer_feedback_name white_color open_sans default_small_heading font_600"> - Mrunmayee Kulkarni</p>
 
                             </div>
 
