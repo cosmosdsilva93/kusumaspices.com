@@ -394,7 +394,7 @@
                 <div class="col-md-10">
                 <!-- <div class="team_detail wow slideInLeft" align="left"> -->
                     <div class="row">
-                        <div class="col-md-3" id="desktop-kusum-img">
+                        <div class="col-md-4" id="desktop-kusum-img">
                             <div class="team_detail_inner">
 
                                 <img src="images/site-images/kusumtai.jpg" alt="team_img">
@@ -403,7 +403,7 @@
 
                             <h3 class="small_heading_navy default_small_heading navy_blue text-center raleway font_400" style="transform: translateX(10px); padding-top: 10px;"><strong>Kusum Deshpande</strong></h3>    
                         </div>
-                        <div class="col-md-9 col-sm-12 col-xs-12">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
                             <p class="default_text open_sans default_text_light" style="text-align: justify;">
                                 Kusuma - An unusual combination of purity, taste and tradition passed down over two generations and carried forward by the third.
                             </p>
@@ -598,7 +598,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/pure-spices.jpg">
+                                                <img src="images/site-images/categories/pure-spices.jpg" height="215px" class="slide-item">
 
                                             </div>
 
@@ -621,7 +621,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/ground-spices.jpg">
+                                                <img src="images/site-images/categories/ground-spices.jpg" height="215px;" class="slide-item">
 
                                             </div>
 
@@ -645,7 +645,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/blended-spices.jpg" height="240px">
+                                                <img src="images/site-images/categories/blended-spices.jpg" >
 
                                             </div>
 
@@ -669,7 +669,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/snack-mix.jpg" height="240px;">
+                                                <img src="images/site-images/categories/snack-mix.jpg">
 
                                             </div>
 
@@ -693,7 +693,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/snack.JPG">
+                                                <img src="images/site-images/categories/snack.JPG" height="215px" class="slide-item">
 
                                             </div>
 

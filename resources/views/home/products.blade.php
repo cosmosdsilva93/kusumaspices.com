@@ -94,15 +94,15 @@
 
 
         <!-- Header Section -->
-        <header>
+        <header id="products-page">
 
             <!-- Navbar Section -->
 
             <nav class="navbar navbar-fixed-top green shrink" style="">
                 <div class="container-fluid">
-                    <!-- <div class="right back-bttn" >
-                        <a href="{{ url('/') }}" class="button default button button_default_style bg_pink bg_before_navy text-capitalize scroll" style="line-height: 24px;">Go Back</a>
-                    </div> -->
+                    <a href="{{ url('/') }}" title="Back" id="back-bttn" class="hidden-md hidden-lg" style="float: right;padding-top: 10px;">
+                            <button type="button" class="btn btn-success" style="background-color: #f15927;border-color: #f15927; border-radius: 50px;">Back</button>
+                    </a>
                     <div class="container">
                         <div class="navbar-header" style="top:-25%;">
                             <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/site-images/logo.png') }}" alt="logo" style="width:102px;"></a>
@@ -123,7 +123,7 @@
                                     <!-- <li><a href="#pricing_table" class="scroll">Pricing</a></li> -->
                                     <!-- <li><a href="#review" class="scroll">Testimonials</a></li> -->
                                     <!-- <li><a href="#blog" class="scroll">Blog</a></li> -->
-                                    <!-- <li><a href="{{ url('/') }}">Go Back</a></li> -->
+                                    
                                 </ul>
                             </div>
 
@@ -147,7 +147,7 @@
         <!-- Circle Js Skill Section -->
 
         <!-- Skill Heading Section -->
-        <br><br>
+        <br><br><br>
         <section id="pure-spices" class="combined_skills_section big_padding bg_grey" style="padding:55px 0 !important;">
 
 
@@ -182,7 +182,7 @@
 
                                             <div class="menu-img" >
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Hing_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Hing_F.jpg') }}">
                                                 
                                             </div>
 
@@ -204,7 +204,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Jeera_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Jeera_F.jpg') }}">
 
                                             </div>
 
@@ -226,7 +226,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Mohori_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Mohori_F.jpg') }}">
 
                                             </div>
 
@@ -249,7 +249,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Gawthi Teel_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Gawthi Teel_F.jpg') }}">
 
                                             </div>
 
@@ -309,7 +309,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Turmeric_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Turmeric_F.jpg') }}">
 
                                             </div>
 
@@ -330,7 +330,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_MIrchi_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_MIrchi_F.jpg') }}">
 
                                             </div>
 
@@ -351,7 +351,7 @@
 
                                             <div class="menu-img ">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Kashmiri Mirchi_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Kashmiri Mirchi_F.jpg') }}">
 
                                             </div>
 
@@ -374,7 +374,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Jeera Powder_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Jeera Powder_F.jpg') }}">
 
                                             </div>
 
@@ -395,7 +395,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="{{ asset('images/site-images/products/Kusuma_Dhania_F.jpg') }}" height="400px">
+                                                <img src="{{ asset('images/site-images/products/Kusuma_Dhania_F.jpg') }}">
 
                                             </div>
 
@@ -457,7 +457,7 @@ distinct aroma and taste is already a hit, and we are confident to receive a sim
 too. &NewLine;Garam Masala&#39; consists of high-quality ingredients, and you will relish any recipe it will be used
 for. &NewLine;Enjoy the real taste &amp; aroma of PUNJABI garam masala to your heart&#39;s content.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Garam Masala_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Garam Masala_F.jpg') }}">
 
                                         </div>
 
@@ -482,7 +482,7 @@ Masala is most famous in Marathi kitchen is a result of using best quality ingre
 making finger licking Dry Vegetables (Sukhi Sabji), Curry Masala/Vegetables (Rassa bhaji), Masala Rice
 (Masala Bhaat) and Tadka Dal (Amti)">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Goda Masala_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Goda Masala_F.jpg') }}">
 
                                         </div>
 
@@ -507,7 +507,7 @@ onion &amp; spices) is its texture and color which unlike many is almost in powd
 lumpy cluster of globules. It is used in preparation of spicy vegetable with or without curry like stuffed
 brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Kanda Masala_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Kanda Masala_F.jpg') }}">
 
                                         </div>
 
@@ -530,7 +530,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                         <div class="menu-img img-container" data-content="Metkut is a Maharashtrian marvel. Metkut when mixed with rice and dollops of ghee, turns into a dish where every morsel makes you nostalgic and takes you back to your good old childhood. It’s a mix of dry roasted rice, lentils & spices which aids digestion& gives instant energy. Good for babies too.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Metkut_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Metkut_F.jpg') }}">
 
                                         </div>
 
@@ -551,7 +551,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                         <div class="menu-img img-container" data-content="Mix of lentils & spice – when added to yogurt along with onion make a quick & tasty high protein raita.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Daangar_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Daangar_F.jpg') }}">
 
                                         </div>
 
@@ -609,7 +609,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                         <div class="menu-img img-container" data-content="Our favourite snack was Ajji’s Bhajani Thalipeeth (grandmother’s homemade flatbread). Easy to make and a wholesome mix of grains, pulses, legumes & millets grounded to perfection that gave us iron calcium and much needed dietary fibres. Healthy, tasty & nutritious anytime snack.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Thalipeeth_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Thalipeeth_F.jpg') }}">
 
                                         </div>
 
@@ -630,7 +630,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                         <div class="menu-img img-container" data-content="This variation is the fasting version of one of the most liked dishes of Maharashtra – Thalipeeth. This is a farali adaption of the classic thalipeeth where the multigrain is replaced with Samo rice, Tapioca, Amaranth and other spices. This is a delicious and healthy breakfast idea even on non-fasting days. This flatbread tastes as good as the classic Thalipeeth or instead tastes a tad better.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_UPasachi Bhajani_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_UPasachi Bhajani_F.jpg') }}">
 
                                         </div>
 
@@ -651,7 +651,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                         <div class="menu-img img-container" data-content="Bhajani Chakli a must have favourite snack of Maharashtrians in Diwali, which is - salty, savoury and crisp. It is the one snack that you cannot stop nibbling. The flour is made from roasted rice & lentils along with spices.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Chakali Bhajani_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Chakali Bhajani_F.jpg') }}">
 
                                         </div>
 
@@ -710,7 +710,7 @@ brinjal, shev-bhaji, misal, chicken, mutton, fish and egg curry, etc.">
 
                                         <div class="menu-img img-container" data-content="Indian snacks have a fantastic spread &amp; our Poha Chivda or Chidva is one of the wonderful healthy snack alternative to the fried ones, an addictive tea time snack. Once you start can’t stop polishing off the bowl.">
 
-                                            <img src="{{ asset('/images/site-images/products/Kusuma_Chivada_F.jpg') }}" height="400px">
+                                            <img src="{{ asset('/images/site-images/products/Kusuma_Chivada_F.jpg') }}">
 
                                         </div>
 

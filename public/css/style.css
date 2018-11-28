@@ -1983,7 +1983,7 @@ ul.packages li i{
 
 .food_menu_section .swiper-button-next{
     background-image: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 80px;
     top: 45%;
     width: 50px;
@@ -2024,7 +2024,7 @@ ul.packages li i{
 
 .food_menu_section .swiper-button-prev{
     background-image: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 80px;
     top: 45%;
     transition: 1s;
@@ -3309,6 +3309,42 @@ ul.packages li i{
         font-size: 15px;
     }
 
+    #about-us-img {
+        display: none;
+    }
+
+    .stats-section{
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ), url("../images/site-images/stats.jpg") !important;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .navbar-brand{
+        padding: 0 !important;
+    }
+
+    /*#layers-elev{
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 125, 0, 1) !important;
+    }*/
+    #desktop-kusum-img{
+        display:none;
+    }
+    #stats-row{
+        padding-top: 60px;
+    }
+    #desktop-kusum-img{
+        display: block !important;
+    }
+    .navbar-header{
+        top:0% !important;
+    }
+    .slide-item{
+        height: 270px !important;
+    }
+    
 
 }
 
@@ -3641,11 +3677,11 @@ ul.packages li i{
         padding: 0 !important;
     }
 
-    #layers-elev{
+    /*#layers-elev{
         transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 125, 0, 1) !important;
-    }
+    }*/
     #desktop-kusum-img{
-        display:none;
+        display:none !important;
     }
     #stats-row{
         padding-top: 60px;
@@ -3837,6 +3873,9 @@ ul.packages li i{
     }
     .developer_information .dev_tagline{
         margin-bottom: 20px;
+    }
+    #products-page .navbar-collapse{
+        display: none !important;
     }
 
 }
