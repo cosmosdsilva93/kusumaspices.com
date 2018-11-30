@@ -431,11 +431,11 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                                We bring to you Kusuma Spices/masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste. Apart from adding unique flavour & taste, consumption of these spices provide infinite health benefits.  
+                                My mom trained under her and help her build it. Both these ladies have been a huge source of inspiration in my life. I have grown seeing and learning from their culinary skills, their understanding of the spices & passion for simple but flavourful cooking. Following my mom's footsteps, I join her in the endeavour to bring you the Spices/Masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste.  
                             </p>
                             <br>
                             <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                                Our spices will remind you of the simplistic times and delicious home-cooked food by our grandmothers
+                                Using these Masalas will enhance the flavour of your recipe and remind you of the simplistic times bringing back memories of the delicious home-cooked food prepared by our grandmothers.
                             </p>
                         </div>
                     </div>
@@ -645,7 +645,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/blended-spices.jpg" >
+                                                <img src="images/site-images/categories/blended-spices.jpg" height="265px" >
 
                                             </div>
 
@@ -669,7 +669,7 @@
 
                                             <div class="menu-img">
 
-                                                <img src="images/site-images/categories/snack-mix.jpg">
+                                                <img src="images/site-images/categories/snack-mix.jpg" height="265px">
 
                                             </div>
 

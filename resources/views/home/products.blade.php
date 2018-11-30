@@ -100,9 +100,9 @@
 
             <nav class="navbar navbar-fixed-top green shrink" style="">
                 <div class="container-fluid">
-                    <a href="{{ url('/') }}" title="Back" id="back-bttn" class="hidden-md hidden-lg" style="float: right;padding-top: 10px;">
+                    <!-- <a href="{{ url('/') }}" title="Back" id="back-bttn" class="" style="float: right;padding-top: 10px;">
                             <button type="button" class="btn btn-success" style="background-color: #f15927;border-color: #f15927; border-radius: 50px;">Back</button>
-                    </a>
+                    </a> -->
                     <div class="container">
                         <div class="navbar-header" style="top:-25%;">
                             <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/site-images/logo.png') }}" alt="logo" style="width:102px;"></a>
