@@ -409,7 +409,7 @@
                             </p>
                             <br>
                             <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                                Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother “Kusum.”
+                                Started out of real passion for cooking & culinary expertise 43 years ago, to fill the void of good readymade masalas, here’s a legacy of hand pound, artisanal & premium masalas by my grandmother 'Kusum'.
                             </p>
                         </div>
                     </div>    
@@ -431,7 +431,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <p class="default_text open_sans default_text_light" style="text-align: justify;">
-                                My mom trained under her and help her build it. Both these ladies have been a huge source of inspiration in my life. I have grown seeing and learning from their culinary skills, their understanding of the spices & passion for simple but flavourful cooking. Following my mom's footsteps, I join her in the endeavour to bring you the Spices/Masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste.  
+                                My mom trained under her and helped her build it. Both these ladies have been a huge source of inspiration in my life. I have grown seeing and learning from their culinary skills, their understanding of the spices & passion for simple but flavourful cooking. Following my mom's footsteps, I join her in the endeavour to bring you the Spices/Masalas – that are entirely homemade. The blend of high-quality ingredients gives them exquisite aroma, texture, and taste.  
                             </p>
                             <br>
                             <p class="default_text open_sans default_text_light" style="text-align: justify;">
